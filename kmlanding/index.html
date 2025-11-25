@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./lib/vue/vue.js"></script>
     <title>Kollmorgen</title>
     <!-- vue.js -->
     <link rel="stylesheet" href="./css/style.css"/>
@@ -16,18 +15,18 @@
     <div class="banner">
         <div class="img-wrapper">
             <div class="page-title">科尔摩根-低温伺服电机</div>
-            <img src="./assets/images/bannerImg1.png" alt=""/>
-            <img src="./assets/images/bannerImg2.png" alt="" />
+            <img src="./assets/images/banner_img.png" alt=""/>
+            <img src="./assets/images/banner_img2.png" alt="" />
         </div>
     </div>
     <!--  content -->
     <div class="content">
         <div class="block-item">
-            <div class="block-left img-w">
-                <img src="./assets/images/img1r.png"/>
+            <div class="block-left">
+                <img src="./assets/images/block_img.png"/>
             </div>
             <div class="block-right">
-                <p class="desc-name">AKM 低温伺服电机</p>
+                <p class="sub-title">AKM 低温伺服电机</p>
                 <ul class="desc-info">
                     <li class="b1-list-item">科尔摩根AKM低温伺服电机，可在-40ºC低温环境使用。无惧严寒 、性能稳定一如既往。</li>
 
@@ -43,7 +42,7 @@
         </div>
         <div class="block-item">
             <div class="block-left">
-                <p class="desc-name">AKM 低温伺服电机的特点</p>
+                <p class="sub-title">AKM 低温伺服电机的特点</p>
                 <ul class="desc-info">
                     <li>8种机框尺寸（40到 260毫米）</li>
                     <li> 功率范围从0.08到19.5Kw</li>
@@ -55,14 +54,15 @@
                     <li>强大的定制能力-包括特殊绕组、特殊轴、连接器</li>
                 </ul>
             </div>
-            <div class="block-right img-w">
-                <img src="./assets/images/img1r2.png"/>
+            <div class="block-right">
+                <img src="./assets/images/img1.png"/>
             </div>
         </div>
         <div class="block-item align-center">
-            <div class="block-left img-w"><img src="./assets/images/img1r3.png" alt="" class="item"/></div>
+            <div class="block-left ">
+                <img src="./assets/images/img2.png" alt="" class="item"/></div>
             <div class="block-right">
-                <p class="desc-name">AKM 低温伺服电机的应用</p>
+                <p class="sub-title">AKM 低温伺服电机的应用</p>
                 <ul class="desc-info">
                     <li>汽车测试</li>
                     <li>冷库搬运</li>
@@ -73,7 +73,7 @@
         </div>
         <div class="block-item">
             <div class="block-left">
-                <p class="desc-name">AKM 低温伺服电机的选型辅助工具</p>
+                <p class="sub-title">AKM 低温伺服电机的选型辅助工具</p>
                 <div class="desc-t">使用 AKM 性能曲线生成器，可以灵活设置以下变 量，确定电机在不同工作条件下的转矩速度曲线。
                     结合 MOTIONEERING选型软件，确保准确的低温 伺服电机选型，消除选型风险。
                 </div>
@@ -88,11 +88,11 @@
                     <li>驱动器峰值电流</li>
                 </ul>
             </div>
-            <div class="block-right img-w"><img src="./assets/images/img1r4.png" alt="" class="w391"/></div>
+            <div class="block-right"><img src="./assets/images/img3.png" alt="" class="w391"/></div>
         </div>
         <div class="table-item">
             <div class="table-wrapper">
-                <p class="table-title">低温伺服电机产品规格</p>
+                <p class="sub-title">低温伺服电机产品规格</p>
                 <div class="table-area">
                     <div class="tb-left">
                         <div class="td-item"></div>
@@ -180,7 +180,7 @@
             </div>
         </div>
         <div class="banner-area">
-            <div class="banner-title">
+            <div class="sub-title">
                 低温伺服电机的案例
             </div>
             <div class="banner-wrapper">
@@ -201,7 +201,7 @@
             </div>
         </div>
         <div class="QA-item">
-            <div class="title">低温伺服电机 Q&A</div>
+            <div class="sub-title">低温伺服电机 Q&A</div>
             <div class="list-wrapper">
                 <div class="list-item">
                     <div class="list-title">科尔摩根直线电机是否可以在低温环境下使用？</div>
@@ -252,46 +252,25 @@
 
 </div>
 </body>
-<!-- <script src="./js/index.js"> -->
 <script>
-    new Vue({
-        el: "#app",
-        data: {
-            designSize: 1440, // 设计图尺寸
-        },
-        methods: {
-            initRem() {
-                let html = document.documentElement;
-                let wW = html.clientWidth; // 窗口宽度
-                // if(wW>1920){
-                //     wW=1920;
-                // }
-                let rem = wW / (this.designSize / 100);
-                document.documentElement.style.fontSize = rem + "px";
-            },
-            changeTable(index) {
-                this.isActiced = index;
-            },
-        },
-        watch: {
-            screenWidth: {
-                handler() {
-                    this.initRem();
-                },
-                immediate: true,
-            },
-        },
-        created() {
-        },
-        mounted() {
-            window.addEventListener("resize", this.initRem);
-        },
-        // // 销毁监听
-        beforeDestroy() {
-            window.removeEventListener("resize", this.initRem);
-            this.$watch = null
-        },
-    });
+    window.onload = () => {
+
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        function initRem() {
+            let html = document.documentElement;
+            let wW = html.clientWidth; // 窗口宽度
+            // if(wW>1920){
+            //     wW=1920;
+            // }
+            let rem = wW / (1440 / 100);
+            document.documentElement.style.fontSize = rem + "px";
+        }
+        initRem()
+        window.addEventListener("resize", initRem);
+    })
 </script>
 
 </html>

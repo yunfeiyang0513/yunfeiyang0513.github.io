@@ -52,6 +52,16 @@ html,body {
     width: 100%;
     margin: 0 auto;
     background-color: white;
+    .sub-title {
+      font-family: 'kmfont';
+      font-size: .24rem;
+      color: #14206C;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .center {
+      text-align: center;
+    }
     .block-item {
       display: flex;
       align-items: flex-end;
@@ -67,28 +77,25 @@ html,body {
         width: 3.91rem;
       }
       .block-left {
+        display: flex;
+        flex-direction: column;
         flex: 1;
-        min-width: 22vw;
         .desc-name {
+          margin-bottom: .16rem;
+        }
+        .sub-title {
           margin-bottom: .16rem;
         }
 
       }
-      .img-w {
-        display: flex;
-        align-items: center;
-      }
       .block-right {
+        display: flex;
+        flex-direction: column;
         width: 52.2%;
         text-align: left;
-      }
-      .desc-name {
-        font-family: 'kmfont';
-        font-size: .24rem;
-        color: #14206C;
-        margin-bottom: .23rem;
-        font-weight: 700;
-        white-space: nowrap;
+        .sub-title {
+          margin-bottom: .23rem;
+        }
       }
       .desc-t {
         font-size: .14rem;
@@ -115,15 +122,11 @@ html,body {
     .table-wrapper {
       margin-bottom: .44rem;
       padding: .44rem 2.81rem 0 2.72rem;
-      .table-title {
+      .sub-title {
         margin-bottom: .12rem;
         padding-bottom: .05rem;
-        font-weight: bold;
-        font-family: 'kmfont';
-        font-size: .24rem;
-        color: #14206C;
         width: fit-content;
-        border-bottom: 3px solid #FCBC40;
+        border-bottom: .03rem solid #FCBC40;
       }
       .table-area {
         display: flex;
@@ -178,13 +181,9 @@ html,body {
     }
     .banner-area {
       padding: 0 2.81rem .44rem 2.72rem;
-      .banner-title {
-        margin-bottom: .24rem;
-        font-family: 'kmfont';
-        font-size: .24rem;
-        font-weight: 700;
-        color: #14206C;
+      .sub-title {
         text-align: center;
+        margin-bottom: .24rem;
       }
       .banner-wrapper {
         display: flex;
@@ -212,12 +211,8 @@ html,body {
       }
     }
     .QA-item {
-      .title {
+      .sub-title {
         margin-bottom: .25rem;
-        font-family: 'kmfont';
-        font-size: .24rem;
-        font-weight: 700;
-        color: #14206C;
         text-align: center;
       }
       .list-wrapper {
@@ -243,7 +238,7 @@ html,body {
           &:after {
             position: absolute;
             left: 0;
-            top: -1px;
+            top: -0.01rem;
             content: '•';
             color: #4A4459;
             font-size: .18rem;

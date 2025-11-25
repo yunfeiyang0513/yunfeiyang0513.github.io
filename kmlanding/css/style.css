@@ -53,6 +53,16 @@ html, body {
   margin: 0 auto;
   background-color: white;
 }
+#app .content .sub-title {
+  font-family: "kmfont";
+  font-size: 0.24rem;
+  color: #14206C;
+  font-weight: 700;
+  white-space: nowrap;
+}
+#app .content .center {
+  text-align: center;
+}
 #app .content .block-item {
   display: flex;
   align-items: flex-end;
@@ -69,27 +79,24 @@ html, body {
   width: 3.91rem;
 }
 #app .content .block-item .block-left {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  min-width: 22vw;
 }
 #app .content .block-item .block-left .desc-name {
   margin-bottom: 0.16rem;
 }
-#app .content .block-item .img-w {
-  display: flex;
-  align-items: center;
+#app .content .block-item .block-left .sub-title {
+  margin-bottom: 0.16rem;
 }
 #app .content .block-item .block-right {
+  display: flex;
+  flex-direction: column;
   width: 52.2%;
   text-align: left;
 }
-#app .content .block-item .desc-name {
-  font-family: "kmfont";
-  font-size: 0.24rem;
-  color: #14206C;
+#app .content .block-item .block-right .sub-title {
   margin-bottom: 0.23rem;
-  font-weight: 700;
-  white-space: nowrap;
 }
 #app .content .block-item .desc-t {
   font-size: 0.14rem;
@@ -116,15 +123,11 @@ html, body {
   margin-bottom: 0.44rem;
   padding: 0.44rem 2.81rem 0 2.72rem;
 }
-#app .content .table-wrapper .table-title {
+#app .content .table-wrapper .sub-title {
   margin-bottom: 0.12rem;
   padding-bottom: 0.05rem;
-  font-weight: bold;
-  font-family: "kmfont";
-  font-size: 0.24rem;
-  color: #14206C;
   width: fit-content;
-  border-bottom: 3px solid #FCBC40;
+  border-bottom: 0.03rem solid #FCBC40;
 }
 #app .content .table-wrapper .table-area {
   display: flex;
@@ -176,13 +179,9 @@ html, body {
 #app .content .banner-area {
   padding: 0 2.81rem 0.44rem 2.72rem;
 }
-#app .content .banner-area .banner-title {
-  margin-bottom: 0.24rem;
-  font-family: "kmfont";
-  font-size: 0.24rem;
-  font-weight: 700;
-  color: #14206C;
+#app .content .banner-area .sub-title {
   text-align: center;
+  margin-bottom: 0.24rem;
 }
 #app .content .banner-area .banner-wrapper {
   display: flex;
@@ -208,12 +207,8 @@ html, body {
   text-decoration: none;
   font-weight: 700;
 }
-#app .content .QA-item .title {
+#app .content .QA-item .sub-title {
   margin-bottom: 0.25rem;
-  font-family: "kmfont";
-  font-size: 0.24rem;
-  font-weight: 700;
-  color: #14206C;
   text-align: center;
 }
 #app .content .QA-item .list-wrapper {
@@ -241,7 +236,7 @@ html, body {
 #app .content .QA-item .list-wrapper .list-item:after {
   position: absolute;
   left: 0;
-  top: -1px;
+  top: -0.01rem;
   content: "•";
   color: #4A4459;
   font-size: 0.18rem;
