@@ -10,8 +10,8 @@
   list-style-type: disc;
 }
 html,body {
-  width: 100%;
-  min-width: 600px;
+  width: 100vw;
+  min-width: 1200px;
 
 }
 
@@ -30,8 +30,11 @@ html,body {
       justify-content: center;
       align-items: center;
       width: 100%;
-      .title {
-        width: 4.52rem;
+      .page-title {
+        font-family: 'kmfont';
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
       }
       .banner-img {
         width: 2.08rem
@@ -51,9 +54,9 @@ html,body {
       background-color: white;
       .block-left {
         flex: 1;
-        min-width: 3.17rem;
+        min-width: 22vw;
         img {
-          width: 3.17rem;
+          width: 22vw;
         }
       }
       .img-w {
@@ -72,6 +75,7 @@ html,body {
         font-size: 24px;
         color: #14206C;
         margin-bottom: .23rem;
+        white-space: nowrap;
       }
       .desc-t {
         font-size: 14px;
@@ -223,8 +227,11 @@ html,body {
 
   }
   .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    padding: .44rem 2.81rem .44rem 2.72rem;
+    padding: 0 2.81rem 0 2.72rem;
     aspect-ratio: 2880 / 806;
     background-size: 100% 100%;
     background-image: url('../assets/images/footer.png');
