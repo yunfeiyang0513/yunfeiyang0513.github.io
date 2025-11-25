@@ -162,6 +162,7 @@ html, body {
   margin-bottom: 0.24rem;
   font-family: "kmfont";
   font-size: 0.24rem;
+  font-weight: 700;
   color: #14206C;
   text-align: center;
 }
@@ -193,6 +194,7 @@ html, body {
   margin-bottom: 0.25rem;
   font-family: "kmfont";
   font-size: 0.24rem;
+  font-weight: 700;
   color: #14206C;
   text-align: center;
 }
@@ -221,10 +223,10 @@ html, body {
 #app .content .QA-item .list-wrapper .list-item:after {
   position: absolute;
   left: 0;
-  top: 0px;
+  top: -1px;
   content: "•";
   color: #4A4459;
-  font-size: 0.16rem;
+  font-size: 0.18rem;
   font-weight: bold;
 }
 #app .footer {

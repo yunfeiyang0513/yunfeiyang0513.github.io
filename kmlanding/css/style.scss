@@ -164,6 +164,7 @@ html,body {
         margin-bottom: .24rem;
         font-family: 'kmfont';
         font-size: .24rem;
+        font-weight: 700;
         color: #14206C;
         text-align: center;
       }
@@ -197,6 +198,7 @@ html,body {
         margin-bottom: .25rem;
         font-family: 'kmfont';
         font-size: .24rem;
+        font-weight: 700;
         color: #14206C;
         text-align: center;
       }
@@ -223,10 +225,10 @@ html,body {
           &:after {
             position: absolute;
             left: 0;
-            top: 0px;
+            top: -1px;
             content: '•';
             color: #4A4459;
-            font-size: .16rem;
+            font-size: .18rem;
             font-weight: bold;
           }
         }
