@@ -20,6 +20,9 @@ html, body {
   height: 100%;
   background-color: #333333;
 }
+#app ul {
+  padding-left: 12px;
+}
 #app .banner {
   position: relative;
   width: 100%;
@@ -53,13 +56,11 @@ html, body {
   padding: 0.22rem 2.81rem 0.26rem 2.72rem;
   gap: 1.33rem;
   background-color: white;
+  color: #414042;
 }
 #app .content .block-item .block-left {
   flex: 1;
   min-width: 22vw;
-}
-#app .content .block-item .block-left img {
-  width: 22vw;
 }
 #app .content .block-item .img-w {
   display: flex;
@@ -68,9 +69,6 @@ html, body {
 #app .content .block-item .block-right {
   width: 52.2%;
   text-align: left;
-}
-#app .content .block-item .block-right img {
-  width: 3.17rem;
 }
 #app .content .block-item .desc-name {
   font-family: "kmfont";
@@ -218,7 +216,8 @@ html, body {
   top: 0px;
   content: "•";
   color: #4A4459;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 #app .footer {
   display: flex;

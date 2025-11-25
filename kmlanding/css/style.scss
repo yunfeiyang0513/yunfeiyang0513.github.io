@@ -19,6 +19,9 @@ html,body {
   width: 100%;
   height: 100%;
   background-color: #333333;
+  ul {
+    padding-left: 12px;
+  }
   .banner {
     position: relative;
     width: 100%;
@@ -52,11 +55,11 @@ html,body {
       padding: .22rem 2.81rem .26rem 2.72rem;
       gap: 1.33rem;
       background-color: white;
+      color: #414042;
       .block-left {
         flex: 1;
         min-width: 22vw;
         img {
-          width: 22vw;
         }
       }
       .img-w {
@@ -66,9 +69,6 @@ html,body {
       .block-right {
         width: 52.2%;
         text-align: left;
-        img {
-          width: 3.17rem;
-        }
       }
       .desc-name {
         font-family: 'kmfont';
@@ -219,7 +219,8 @@ html,body {
             top: 0px;
             content: '•';
             color: #4A4459;
-            font-size: 14px;
+            font-size: 16px;
+            font-weight: bold;
           }
         }
       }
