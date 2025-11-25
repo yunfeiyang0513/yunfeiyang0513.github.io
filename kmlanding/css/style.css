@@ -12,6 +12,7 @@
 
 html, body {
   width: 100%;
+  min-width: 600px;
 }
 
 #app {
@@ -46,7 +47,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.44rem 2.81rem 0.44rem 2.72rem;
+  padding: 0.22rem 2.81rem 0.26rem 2.72rem;
   gap: 1.33rem;
   background-color: white;
 }
@@ -86,10 +87,10 @@ html, body {
 }
 #app .content .table-wrapper {
   margin-bottom: 0.44rem;
-  padding: 0.44rem 2.81rem 0.44rem 2.72rem;
+  padding: 0.44rem 2.81rem 0 2.72rem;
 }
 #app .content .table-wrapper .table-title {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   padding-bottom: 5px;
   font-family: "kmfont";
   font-size: 24px;
@@ -145,7 +146,7 @@ html, body {
   background-color: #e8e8e8;
 }
 #app .content .banner-area {
-  padding: 0.44rem 2.81rem 0.44rem 2.72rem;
+  padding: 0 2.81rem 0.44rem 2.72rem;
 }
 #app .content .banner-area .banner-title {
   margin-bottom: 0.24rem;
@@ -155,7 +156,6 @@ html, body {
   text-align: center;
 }
 #app .content .banner-area .banner-wrapper {
-  margin-bottom: 0.44rem;
   display: flex;
   justify-content: space-between;
   gap: 0.2rem;
@@ -187,12 +187,15 @@ html, body {
   text-align: center;
 }
 #app .content .QA-item .list-wrapper {
-  padding: 0.44rem 2.81rem 0.44rem 2.72rem;
+  padding: 0 2.81rem 0.44rem 2.72rem;
 }
 #app .content .QA-item .list-wrapper .list-item {
   position: relative;
   padding-left: 0.25rem;
   margin-bottom: 0.25rem;
+}
+#app .content .QA-item .list-wrapper .list-item:nth-last-of-type(1) {
+  margin-bottom: 0;
 }
 #app .content .QA-item .list-wrapper .list-item .list-title {
   margin-bottom: 12px;

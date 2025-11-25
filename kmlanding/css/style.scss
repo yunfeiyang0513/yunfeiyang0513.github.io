@@ -11,6 +11,7 @@
 }
 html,body {
   width: 100%;
+  min-width: 600px;
 
 }
 
@@ -45,7 +46,7 @@ html,body {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: .44rem 2.81rem .44rem 2.72rem;
+      padding: .22rem 2.81rem .26rem 2.72rem;
       gap: 1.33rem;
       background-color: white;
       .block-left {
@@ -85,9 +86,9 @@ html,body {
     }
     .table-wrapper {
       margin-bottom: .44rem;
-      padding: .44rem 2.81rem .44rem 2.72rem;
+      padding: .44rem 2.81rem 0 2.72rem;
       .table-title {
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         padding-bottom: 5px;
         font-family: 'kmfont';
         font-size: 24px;
@@ -147,7 +148,7 @@ html,body {
       }
     }
     .banner-area {
-      padding: .44rem 2.81rem .44rem 2.72rem;
+      padding: 0 2.81rem .44rem 2.72rem;
       .banner-title {
         margin-bottom: .24rem;
         font-family: 'kmfont';
@@ -156,7 +157,6 @@ html,body {
         text-align: center;
       }
       .banner-wrapper {
-        margin-bottom: .44rem;
         display: flex;
         justify-content: space-between;
         gap: .2rem;
@@ -190,11 +190,14 @@ html,body {
         text-align: center;
       }
       .list-wrapper {
-        padding: .44rem 2.81rem .44rem 2.72rem;
+        padding: 0 2.81rem .44rem 2.72rem;
         .list-item {
           position: relative;
           padding-left: .25rem;
           margin-bottom: .25rem;
+          &:nth-last-of-type(1) {
+            margin-bottom: 0;
+          }
           .list-title {
             margin-bottom: 12px;
             font-family: 'kmfont';
