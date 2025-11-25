@@ -12,7 +12,8 @@
 
 html, body {
   width: 100vw;
-  min-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 #app {
@@ -21,7 +22,7 @@ html, body {
   background-color: #333333;
 }
 #app ul {
-  padding-left: 15px;
+  padding-left: 0.15rem;
 }
 #app .banner {
   display: flex;
@@ -40,12 +41,16 @@ html, body {
 }
 #app .banner .img-wrapper .page-title {
   font-family: "kmfont";
-  font-size: 40px;
+  font-size: 0.4rem;
   font-weight: 700;
   color: white;
 }
+#app .banner .img-wrapper img {
+  width: 2.14rem;
+}
 #app .content {
   width: 100%;
+  margin: 0 auto;
   background-color: white;
 }
 #app .content .block-item {
@@ -56,6 +61,9 @@ html, body {
   gap: 0.7rem;
   background-color: white;
   color: #414042;
+}
+#app .content .block-item img {
+  width: 3.17rem;
 }
 #app .content .block-item .block-left {
   flex: 1;
@@ -71,17 +79,18 @@ html, body {
 }
 #app .content .block-item .desc-name {
   font-family: "kmfont";
-  font-size: 24px;
+  font-size: 0.24rem;
   color: #14206C;
   margin-bottom: 0.23rem;
+  font-weight: 700;
   white-space: nowrap;
 }
 #app .content .block-item .desc-t {
-  font-size: 14px;
+  font-size: 0.14rem;
 }
 #app .content .block-item .desc-info {
   color: #414042;
-  font-size: 14px;
+  font-size: 0.14rem;
 }
 #app .content .block-item:nth-of-type(2n) {
   background-color: #F0F0F0;
@@ -91,10 +100,10 @@ html, body {
   padding: 0.44rem 2.81rem 0 2.72rem;
 }
 #app .content .table-wrapper .table-title {
-  margin-bottom: 12px;
-  padding-bottom: 5px;
+  margin-bottom: 0.12rem;
+  padding-bottom: 0.05rem;
   font-family: "kmfont";
-  font-size: 24px;
+  font-size: 0.24rem;
   color: #14206C;
   width: fit-content;
   border-bottom: 3px solid #FCBC40;
@@ -103,14 +112,14 @@ html, body {
   display: flex;
 }
 #app .content .table-wrapper .table-area .tb-left {
-  width: 150px;
+  width: 1.5rem;
   background-color: #A2DAF6;
 }
 #app .content .table-wrapper .table-area .tb-left .td-item {
-  padding-left: 5px;
-  font-size: 14px;
-  line-height: 47px;
-  height: 47px;
+  padding-left: 0.05rem;
+  font-size: 0.14rem;
+  line-height: 0.47rem;
+  height: 0.47rem;
   font-weight: bold;
   color: #14206C;
 }
@@ -119,10 +128,10 @@ html, body {
 }
 #app .content .table-wrapper .table-area .tb-right .tb-head {
   display: flex;
-  height: 47px;
-  line-height: 47px;
+  height: 0.47rem;
+  line-height: 0.47rem;
   color: #14206C;
-  font-size: 14px;
+  font-size: 0.14rem;
   font-weight: bold;
   background-color: #A2DAF6;
 }
@@ -132,8 +141,8 @@ html, body {
 }
 #app .content .table-wrapper .table-area .tb-right .tb-body .row-item {
   display: flex;
-  height: 47px;
-  font-size: 14px;
+  height: 0.47rem;
+  font-size: 0.14rem;
   color: #414042;
   background-color: #fcfcfc;
 }
@@ -152,7 +161,7 @@ html, body {
 #app .content .banner-area .banner-title {
   margin-bottom: 0.24rem;
   font-family: "kmfont";
-  font-size: 24px;
+  font-size: 0.24rem;
   color: #14206C;
   text-align: center;
 }
@@ -162,11 +171,11 @@ html, body {
   gap: 0.2rem;
 }
 #app .content .banner-area .banner-wrapper .banner-item {
-  padding: 0.19rem 9px;
+  padding: 0.19rem 0.09rem;
   flex: 1;
-  border-radius: 10px;
+  border-radius: 0.1rem;
   background: #FFF;
-  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.1490196078);
+  box-shadow: 0.03rem 0.03rem 0.1rem 0.06rem rgba(0, 0, 0, 0.1490196078);
 }
 #app .content .banner-area .banner-wrapper .banner-item img {
   display: block;
@@ -175,7 +184,7 @@ html, body {
 }
 #app .content .banner-area .banner-wrapper .banner-item a {
   display: block;
-  font-size: 14px;
+  font-size: 0.14rem;
   color: #14206C;
   text-decoration: none;
   font-weight: 700;
@@ -183,7 +192,7 @@ html, body {
 #app .content .QA-item .title {
   margin-bottom: 0.25rem;
   font-family: "kmfont";
-  font-size: 24px;
+  font-size: 0.24rem;
   color: #14206C;
   text-align: center;
 }
@@ -199,14 +208,14 @@ html, body {
   margin-bottom: 0;
 }
 #app .content .QA-item .list-wrapper .list-item .list-title {
-  margin-bottom: 12px;
+  margin-bottom: 0.12rem;
   font-family: "kmfont";
-  font-size: 14px;
+  font-size: 0.14rem;
   color: #14206C;
   font-weight: bold;
 }
 #app .content .QA-item .list-wrapper .list-item .list-ctx {
-  font-size: 14px;
+  font-size: 0.14rem;
   color: #414042;
 }
 #app .content .QA-item .list-wrapper .list-item:after {
@@ -215,7 +224,7 @@ html, body {
   top: 0px;
   content: "•";
   color: #4A4459;
-  font-size: 16px;
+  font-size: 0.16rem;
   font-weight: bold;
 }
 #app .footer {
@@ -229,17 +238,17 @@ html, body {
   background-image: url("../assets/images/footer.png");
 }
 #app .footer .title {
-  margin-bottom: 8px;
-  font-size: 26px;
+  margin-bottom: 0.08rem;
+  font-size: 0.26rem;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 0.5rem;
   text-align: center;
   color: white;
 }
 #app .footer .sub-title {
   position: relative;
   width: 100%;
-  font-size: 18px;
+  font-size: 0.18rem;
   margin-bottom: 0.2rem;
   color: white;
   text-align: center;
@@ -249,7 +258,7 @@ html, body {
   left: 0;
   top: 50%;
   width: 30%;
-  height: 2px;
+  height: 0.02rem;
   content: "";
   background-color: white;
   transform: translateY(-50%);
@@ -260,13 +269,13 @@ html, body {
   top: 50%;
   content: "";
   width: 30%;
-  height: 2px;
+  height: 0.02rem;
   background-color: white;
   transform: translateY(-50%);
 }
 #app .footer .footer-ctx {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 0.16rem;
+  line-height: 0.25rem;
 }
 #app .footer .footer-ctx p {
   margin-bottom: 0.2rem;

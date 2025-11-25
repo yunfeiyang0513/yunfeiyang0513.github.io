@@ -11,7 +11,8 @@
 }
 html,body {
   width: 100vw;
-  min-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
 
 }
 
@@ -20,7 +21,7 @@ html,body {
   height: 100%;
   background-color: #333333;
   ul {
-    padding-left: 15px;
+    padding-left: .15rem;
   }
   .banner {
     display: flex;
@@ -37,15 +38,19 @@ html,body {
       width: 100%;
       .page-title {
         font-family: 'kmfont';
-        font-size: 40px;
+        font-size: .4rem;
         font-weight: 700;
         color: white;
+      }
+      img {
+        width: 2.14rem;
       }
 
     }
   }
   .content {
     width: 100%;
+    margin: 0 auto;
     background-color: white;
     .block-item {
       display: flex;
@@ -55,11 +60,13 @@ html,body {
       gap: .7rem;
       background-color: white;
       color: #414042;
+      img {
+        width: 3.17rem;
+      }
       .block-left {
         flex: 1;
         min-width: 22vw;
-        img {
-        }
+
       }
       .img-w {
         display: flex;
@@ -71,17 +78,18 @@ html,body {
       }
       .desc-name {
         font-family: 'kmfont';
-        font-size: 24px;
+        font-size: .24rem;
         color: #14206C;
         margin-bottom: .23rem;
+        font-weight: 700;
         white-space: nowrap;
       }
       .desc-t {
-        font-size: 14px;
+        font-size: .14rem
       }
       .desc-info {
         color: #414042;
-        font-size: 14px;
+        font-size: .14rem;
       }
       &:nth-of-type(2n) {
         background-color: #F0F0F0;
@@ -91,10 +99,10 @@ html,body {
       margin-bottom: .44rem;
       padding: .44rem 2.81rem 0 2.72rem;
       .table-title {
-        margin-bottom: 12px;
-        padding-bottom: 5px;
+        margin-bottom: .12rem;
+        padding-bottom: .05rem;
         font-family: 'kmfont';
-        font-size: 24px;
+        font-size: .24rem;
         color: #14206C;
         width: fit-content;
         border-bottom: 3px solid #FCBC40;
@@ -102,13 +110,13 @@ html,body {
       .table-area {
         display: flex;
         .tb-left {
-          width: 150px;
+          width: 1.5rem;
           background-color: #A2DAF6;
           .td-item {
-            padding-left: 5px;
-            font-size: 14px;
-            line-height: 47px;
-            height: 47px;
+            padding-left: .05rem;
+            font-size: .14rem;
+            line-height: .47rem;
+            height: .47rem;
             font-weight: bold;
             color: #14206C;
           }
@@ -117,10 +125,10 @@ html,body {
           flex:  1;
           .tb-head {
             display: flex;
-            height: 47px;
-            line-height: 47px;
+            height: .47rem;
+            line-height: .47rem;
             color: #14206C;
-            font-size: 14px;
+            font-size: .14rem;
             font-weight: bold;
             background-color: #A2DAF6;
             .td-item {
@@ -131,8 +139,8 @@ html,body {
           .tb-body {
             .row-item {
               display: flex;
-              height: 47px;
-              font-size: 14px;
+              height: .47rem;
+              font-size: .14rem;
               color: #414042;
               background-color: #fcfcfc;
               .td-item {
@@ -155,7 +163,7 @@ html,body {
       .banner-title {
         margin-bottom: .24rem;
         font-family: 'kmfont';
-        font-size: 24px;
+        font-size: .24rem;
         color: #14206C;
         text-align: center;
       }
@@ -164,11 +172,11 @@ html,body {
         justify-content: space-between;
         gap: .2rem;
         .banner-item {
-          padding: .19rem 9px;
+          padding: .19rem .09rem;
           flex: 1;
-          border-radius: 10px;
+          border-radius: .1rem;
           background: #FFF;
-          box-shadow: 3px 3px 10px 6px #00000026;
+          box-shadow: .03rem .03rem .1rem .06rem #00000026;
           img {
             display: block;
             margin-bottom: .21rem;
@@ -176,7 +184,7 @@ html,body {
           }
           a {
             display: block;
-            font-size: 14px;
+            font-size: .14rem;
             color: #14206C;
             text-decoration: none;
             font-weight: 700;
@@ -188,7 +196,7 @@ html,body {
       .title {
         margin-bottom: .25rem;
         font-family: 'kmfont';
-        font-size: 24px;
+        font-size: .24rem;
         color: #14206C;
         text-align: center;
       }
@@ -202,14 +210,14 @@ html,body {
             margin-bottom: 0;
           }
           .list-title {
-            margin-bottom: 12px;
+            margin-bottom: .12rem;
             font-family: 'kmfont';
-            font-size: 14px;
+            font-size: .14rem;
             color: #14206C;
             font-weight: bold;
           }
           .list-ctx {
-            font-size: 14px;
+            font-size: .14rem;
             color: #414042;
           }
           &:after {
@@ -218,7 +226,7 @@ html,body {
             top: 0px;
             content: '•';
             color: #4A4459;
-            font-size: 16px;
+            font-size: .16rem;
             font-weight: bold;
           }
         }
@@ -236,17 +244,17 @@ html,body {
     background-size: 100% 100%;
     background-image: url('../assets/images/footer.png');
       .title {
-        margin-bottom: 8px;
-        font-size: 26px;
+        margin-bottom: .08rem;
+        font-size: .26rem;
         font-weight: 600;
-        line-height: 50px;
+        line-height: .5rem;
         text-align: center;
         color: white;
       }
       .sub-title {
         position: relative;
         width: 100%;
-        font-size: 18px;
+        font-size: .18rem;
         margin-bottom: .2rem;
         color: white;
         text-align: center;
@@ -255,7 +263,7 @@ html,body {
           left: 0;
           top: 50%;
           width: 30%;
-          height: 2px;
+          height: 0.02rem;
           content: '';
           background-color: white;
           transform: translateY(-50%);
@@ -266,14 +274,14 @@ html,body {
           top: 50%;
           content: '';
           width: 30%;
-          height: 2px;
+          height: 0.02rem;
           background-color: white;
           transform: translateY(-50%);
         }
       }
     .footer-ctx {
-      font-size: 16px;
-      line-height: 25px;
+      font-size: .16rem;
+      line-height: .25rem;
       p {
         margin-bottom: .2rem;
         color: white;
