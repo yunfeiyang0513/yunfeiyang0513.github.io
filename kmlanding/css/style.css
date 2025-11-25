@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "kmfont";
-  src: url("../assets/font/SourceHanSansCN-Bold.otf");
+  src: url("../assets/font/SourceHanSansCN-Medium.otf");
 }
 * {
   margin: 0;
@@ -166,6 +166,18 @@ html, body {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.1490196078);
+}
+#app .content .banner-area .banner-wrapper .banner-item img {
+  display: block;
+  margin-bottom: 0.21rem;
+  width: 100%;
+}
+#app .content .banner-area .banner-wrapper .banner-item a {
+  display: block;
+  font-size: 14px;
+  color: #14206C;
+  text-decoration: none;
+  font-weight: 700;
 }
 #app .content .QA-item .title {
   margin-bottom: 0.25rem;
