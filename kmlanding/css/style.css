@@ -55,7 +55,7 @@ html, body {
 }
 #app .content .block-item {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   padding: 0.22rem 2.81rem 0.26rem 2.72rem;
   gap: 0.7rem;
@@ -65,9 +65,15 @@ html, body {
 #app .content .block-item img {
   width: 3.17rem;
 }
+#app .content .block-item .w391 {
+  width: 3.91rem;
+}
 #app .content .block-item .block-left {
   flex: 1;
   min-width: 22vw;
+}
+#app .content .block-item .block-left .desc-name {
+  margin-bottom: 0.16rem;
 }
 #app .content .block-item .img-w {
   display: flex;
@@ -87,13 +93,24 @@ html, body {
 }
 #app .content .block-item .desc-t {
   font-size: 0.14rem;
+  line-height: 0.22rem;
 }
 #app .content .block-item .desc-info {
   color: #414042;
   font-size: 0.14rem;
+  line-height: 0.22rem;
+}
+#app .content .block-item .desc-info .b1-list-item {
+  margin-bottom: 0.2rem;
+}
+#app .content .block-item .desc-info .b1-list-item:nth-last-of-type(1) {
+  margin-bottom: 0;
 }
 #app .content .block-item:nth-of-type(2n) {
   background-color: #F0F0F0;
+}
+#app .content .align-center {
+  align-items: center;
 }
 #app .content .table-wrapper {
   margin-bottom: 0.44rem;
@@ -102,6 +119,7 @@ html, body {
 #app .content .table-wrapper .table-title {
   margin-bottom: 0.12rem;
   padding-bottom: 0.05rem;
+  font-weight: bold;
   font-family: "kmfont";
   font-size: 0.24rem;
   color: #14206C;

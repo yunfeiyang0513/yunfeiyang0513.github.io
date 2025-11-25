@@ -54,7 +54,7 @@ html,body {
     background-color: white;
     .block-item {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: space-between;
       padding: .22rem 2.81rem .26rem 2.72rem;
       gap: .7rem;
@@ -63,9 +63,15 @@ html,body {
       img {
         width: 3.17rem;
       }
+      .w391 {
+        width: 3.91rem;
+      }
       .block-left {
         flex: 1;
         min-width: 22vw;
+        .desc-name {
+          margin-bottom: .16rem;
+        }
 
       }
       .img-w {
@@ -85,15 +91,26 @@ html,body {
         white-space: nowrap;
       }
       .desc-t {
-        font-size: .14rem
+        font-size: .14rem;
+        line-height: .22rem;
       }
       .desc-info {
         color: #414042;
         font-size: .14rem;
+        line-height: .22rem;
+        .b1-list-item {
+          margin-bottom: .2rem;
+          &:nth-last-of-type(1) {
+            margin-bottom: 0;
+          }
+        }
       }
       &:nth-of-type(2n) {
         background-color: #F0F0F0;
       }
+    }
+    .align-center {
+      align-items: center;
     }
     .table-wrapper {
       margin-bottom: .44rem;
@@ -101,6 +118,7 @@ html,body {
       .table-title {
         margin-bottom: .12rem;
         padding-bottom: .05rem;
+        font-weight: bold;
         font-family: 'kmfont';
         font-size: .24rem;
         color: #14206C;
