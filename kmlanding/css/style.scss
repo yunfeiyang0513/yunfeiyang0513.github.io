@@ -23,6 +23,8 @@ html,body {
     padding-left: 12px;
   }
   .banner {
+    display: flex;
+    align-items: center;
     position: relative;
     width: 100%;
     aspect-ratio: 1440 / 183;
@@ -38,9 +40,6 @@ html,body {
         font-size: 40px;
         font-weight: 700;
         color: white;
-      }
-      .banner-img {
-        width: 2.08rem
       }
 
     }
