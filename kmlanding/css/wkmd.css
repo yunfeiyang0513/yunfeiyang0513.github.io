@@ -148,6 +148,9 @@ ul {
   line-height: 0.46rem; /* 191.667% */
   border-bottom: 0.01rem solid #C5C5C5;
 }
+#app .block2 .title div {
+  margin-left: 7.2%;
+}
 #app .block2 .img-wrapper {
   display: flex;
   justify-content: space-between;
@@ -155,6 +158,7 @@ ul {
 }
 #app .block2 .img-wrapper img {
   flex: 372;
+  width: 3.77rem;
 }
 #app .block2 .table-area {
   font-size: 0.14rem;
@@ -445,8 +449,7 @@ ul {
   width: 100%;
   padding: 0 2.81rem 0 2.72rem;
   aspect-ratio: 2880/1190;
-  background-size: 100% 100%;
-  background-image: url("../assets/images/wkmd/footer.png");
+  background-color: #102b5b;
 }
 #app .footer .title {
   margin-bottom: 0.08rem;

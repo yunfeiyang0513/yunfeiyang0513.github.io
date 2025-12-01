@@ -108,6 +108,9 @@ ul {
   line-height: 0.46rem; /* 191.667% */
   border-bottom: 0.01rem solid #C5C5C5;
 }
+#app .block2 .title div {
+  margin-left: 7.2%;
+}
 #app .block2 .img-wrapper {
   display: flex;
   justify-content: space-between;
@@ -115,6 +118,7 @@ ul {
 }
 #app .block2 .img-wrapper img {
   flex: 373;
+  width: 3.77rem;
 }
 #app .block2 .table-area {
   font-size: 0.14rem;
