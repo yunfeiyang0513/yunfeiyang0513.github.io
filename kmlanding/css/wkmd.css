@@ -84,7 +84,8 @@ ul {
   font-size: 0.14rem;
 }
 #app .banner .ctx-area .btn-wrapper .btn {
-  padding: 0.07rem 0;
+  height: 0.32rem;
+  line-height: 0.32rem;
   flex: 1;
   border-radius: 0.04rem;
 }
@@ -114,7 +115,9 @@ ul {
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 0.27rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.04rem;
   background-color: #fcbc40;
   cursor: pointer;
 }
@@ -532,7 +535,10 @@ ul {
   font-style: normal;
   font-weight: 700;
   line-height: 0.27rem;
+  height: 0.32rem;
+  border-radius: 0.04rem;
   background-color: #fcbc40;
+  cursor: pointer;
 }
 #app .page-footer {
   display: flex;

@@ -83,7 +83,8 @@ ul {
         gap: .28rem;
         font-size: .14rem;
         .btn {
-          padding: .07rem 0;
+          height: .32rem;
+          line-height: .32rem;
           flex: 1;
           border-radius: .04rem;
         }
@@ -116,7 +117,9 @@ ul {
     font-size: .14rem;
     font-style: normal;
     font-weight: 700;
-    line-height: .27rem;
+    line-height: .32rem;
+    height: .32rem;
+    border-radius: .04rem;
     background-color: #fcbc40;
     cursor: pointer;
   }
@@ -550,14 +553,16 @@ ul {
         }
         input {
           color: #14206C;
-
           text-align: center;
           font-family: Arial;
           font-size: .14rem;
           font-style: normal;
           font-weight: 700;
           line-height: .27rem;
-          background-color: #fcbc40;;
+          height: .32rem;
+          border-radius: .04rem;
+          background-color: #fcbc40;
+          cursor: pointer;
         }
 
       }
