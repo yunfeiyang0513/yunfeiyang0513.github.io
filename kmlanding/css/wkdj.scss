@@ -45,22 +45,23 @@ ul {
   .block1 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin-top: .59rem;
     padding-left: 2.74rem;
     padding-right: 2.76rem;
-    gap: .61rem;
+    gap: .33rem;
     .block-left {
       display: flex;
-      padding-top: .21rem;
-      width: 45.14%;
+      align-items: flex-end;
+      padding-top: .25rem;
+      width: 46.7%;
       img {
-        width: 3.99rem;
+        width: 100%;
         display: block;
       }
     }
     .block-right {
-      width: 40%;
+      width: 51.2%;
       .title {
         margin-bottom: .08rem;
         color: #14206C;

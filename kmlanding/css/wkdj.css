@@ -44,23 +44,24 @@ ul {
 #app .block1 {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 0.59rem;
   padding-left: 2.74rem;
   padding-right: 2.76rem;
-  gap: 0.61rem;
+  gap: 0.33rem;
 }
 #app .block1 .block-left {
   display: flex;
-  padding-top: 0.21rem;
-  width: 45.14%;
+  align-items: flex-end;
+  padding-top: 0.25rem;
+  width: 46.7%;
 }
 #app .block1 .block-left img {
-  width: 3.99rem;
+  width: 100%;
   display: block;
 }
 #app .block1 .block-right {
-  width: 40%;
+  width: 51.2%;
 }
 #app .block1 .block-right .title {
   margin-bottom: 0.08rem;
