@@ -28,10 +28,17 @@ ul {
   .center {
     text-align: center;
   }
+  .page-header {
+    padding-left: 2.75rem;
+    img {
+      width: 1.8rem;
+    }
+  }
   .banner {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: .34rem 2.75rem .22rem 2.75rem;
     width: 100%;
     aspect-ratio: 1440 / 369;
     color: #FFF;
@@ -40,6 +47,65 @@ ul {
     font-weight: 700;
     background-image: url('../assets/images/wkmd/banner.png');
     background-size: 100% 100%;
+    .ctx-area {
+      .title {
+        margin-bottom: .21rem;
+        color: #FFF;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        .main-title {
+          font-size: .36rem;
+        }
+        .sub-title {
+          color: #FFF;
+          font-size: .3rem;
+        }
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: .26rem;
+        gap: .14rem;
+        color: #FCBC40;
+        font-family: Arial;
+        font-size: .24rem;
+        font-style: normal;
+        font-weight: 700;
+        img {
+          width: .32rem;
+        }
+      }
+      .btn-wrapper {
+        display: flex;
+        gap: .28rem;
+        font-size: .14rem;
+        .btn {
+          padding: .07rem 0;
+          flex: 1;
+          border-radius: .04rem;
+        }
+        .btn1 {
+          color: #14206C;
+          background-color: #FCBC40;
+        }
+        .btn2 {
+          color: white;
+          background-color: transparent;
+          border: .01rem solid #FCBC40;
+        }
+      }
+    }
+    .img-wrapper {
+      display: flex;
+      align-items: flex-end;
+      margin-left: .2rem;
+      img {
+        width: 4.9rem;
+      }
+    }
   }
   .btn {
     margin-top: .16rem;
@@ -186,6 +252,9 @@ ul {
     padding: 0 2.79rem;
     .block-left {
       width: 50%;
+      img {
+        width: 3.12rem;
+      }
     }
     .block-right {
       .title {
@@ -316,12 +385,29 @@ ul {
           margin-bottom: .21rem;
           width: 100%;
         }
-        a {
+        .banner-desc{
           display: block;
           font-size: .14rem;
           color: #14206C;
           text-decoration: none;
           font-weight: 700;
+          height: .45rem;
+          border-bottom: .01rem solid #465052;
+        }
+        .banner-href {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: .11rem;
+          color: #FCBC40;
+          font-size: .14rem;
+          font-style: normal;
+          font-weight: 700;
+          cursor: pointer;
+          .href-icon {
+            margin-bottom: 0;
+            width: .25rem;
+          }
         }
       }
     }
@@ -369,9 +455,9 @@ ul {
     justify-content: center;
     width: 100%;
     padding: 0 2.81rem 0 2.72rem;
-    aspect-ratio: 2880 / 806;
+    aspect-ratio: 2880 / 1190;
     background-size: 100% 100%;
-    background-image: url('../assets/images/footer.png');
+    background-image: url('../assets/images/wkmd/footer.png');
     .title {
       margin-bottom: .08rem;
       font-size: .26rem;
@@ -409,6 +495,7 @@ ul {
       }
     }
     .footer-ctx {
+      margin-bottom: .44rem;
       font-size: .16rem;
       line-height: .25rem;
       p {
@@ -420,142 +507,76 @@ ul {
         font-weight: 500;
       }
     }
-  }
-  .dialog-modal {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    display: none;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    .dialog-wrapper {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      display: flex;
-      width: 74.5%;
-      height: 78%;
-      border-radius: .02rem;
-      transform: translate(-50%, -50%);
-      .left {
+    .title-desc {
+      color: #FFF;
+      text-align: center;
+      font-family: Arial;
+      font-size: .16rem;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .require-tip {
+      color: white;
+      font-size: .12rem;
+    }
+    .footer-form {
+      width: 100%;
+      .input-area {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: .37rem .72rem .42rem .77rem;
-        width: 68.5%;
-        border-radius: .04rem 0 0 .02rem;
-        background-color: #fff;
-        .title {
-          color: #14206C;
-          font-family: Arial;
-          font-size: .2rem;
-          font-style: normal;
-          font-weight: 700;
-          line-height: .46rem;
-        }
-        .title-desc {
-          margin-bottom: .09rem;
-          color: #465052;
-          font-family: Arial;
-          font-size: .16rem;
-          font-style: normal;
-          font-weight: 400;
-          line-height: .46rem
-        }
-        .tip {
-          margin-bottom: .07rem;
-          color: #999;
-          font-family: Arial;
+        justify-content: space-between;
+        gap: .57rem;
+        width: 100%;
+        .item {
+          flex: 1;
+          color: white;
           font-size: .14rem;
-          font-style: normal;
-          font-weight: 400;
-          line-height: .32rem;
-        }
-        .input-item {
-          margin-top: .14rem;
-          label {
-            display: block;
-            color: #999;
-            font-family: Arial;
-            font-size: .16rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 200%
-          }
           input {
+            margin-top: .05rem;
             width: 100%;
-            height: .32rem;
-            border: .01rem solid #E0E0E2;;
+            height: .19rem;
+            line-height: .19rem;
+            font-size: .14rem;
+            outline: none;
           }
-          .sub-btn {
-            color: #14206C;
-            text-align: center;
-            font-family: Arial;
-            font-size: .2rem;
-            line-height: 1;
-            font-style: normal;
-            font-weight: 700;
-            height: .52rem;
-            background-color: #fcbc40;
-            cursor: pointer ;
-          }
-        }
-        .last-item {
-          margin-top: .31rem;
         }
       }
-      .right {
+      .submit-area {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: .51rem .34rem .83rem .52rem;
-        flex: 1;
-        border-radius: 0rem 0.02rem  0.02rem 0rem;
-        background: #14206C;
-        .title {
-          margin-bottom: .08rem;
-          color: #F5F5F5;
+        justify-content: space-between;
+        gap: .57rem;
+        margin-top: .25rem;
+        .item {
+          flex: 1;
+        }
+        input {
+          color: #14206C;
+
+          text-align: center;
           font-family: Arial;
-          font-size: .2rem;
+          font-size: .14rem;
           font-style: normal;
           font-weight: 700;
-          line-height: 135%
-        }
-        .desc{
-          margin-bottom: .52rem;
-          color: #F5F5F5;
-          font-family: Arial;
-          font-size: .14rem;
-          font-style: normal;
-          font-weight: 400;
-          line-height: .2rem; /* 142.857% */
-        }
-        ul {
-          margin-bottom: .51rem;
-          color: #F5F5F5;
-          font-size: .14rem;
-          font-style: normal;
-          font-weight: 400;
           line-height: .27rem;
+          background-color: #fcbc40;;
         }
-        img {
-          width: 2.6rem
-        }
+
       }
-      .close {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: .6rem;
-        height: .6rem;
-        border-radius: 50%;
-        background-color: white;
-        cursor: pointer;
-        transform: translate(50%, -50%);
-      }
+    }
+  }
+  .page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .24rem 0;
+    gap: .22rem;
+    background: rgba(217, 217, 217, 0.50);
+    color: rgba(70, 80, 82, 0.50);
+    font-family: Arial;
+    font-size: .12rem;
+    font-style: normal;
+    font-weight: 700;
+    img {
+      width: 1.23rem
     }
   }
 

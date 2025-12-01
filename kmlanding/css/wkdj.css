@@ -239,6 +239,9 @@ ul {
 #app .block4 .block-left {
   width: 50%;
 }
+#app .block4 .block-left img {
+  width: 3.12rem;
+}
 #app .block4 .block-right .title {
   margin-bottom: 0.11rem;
   color: #14206C;
