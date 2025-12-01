@@ -45,6 +45,7 @@
             TBM 2G 與 KBM 性能對比
         </div>
         <div class="img-wrapper">
+            <div style="flex: 125"></div>
             <img src="assets/images/wkdj/img3.png" alt="">
             <img src="assets/images/wkdj/img4.png" alt="">
         </div>
@@ -791,26 +792,26 @@
                 <div class="banner-desc">
                     TBM 无框电机家族：您的健康，我来守护
                 </div>
-                <a class="banner-href">
+                <div class="btn banner-href">
                     點擊查看更多案例
                         <img src="./assets/images/wkmd/href.svg" class="href-icon" alt=""/>
-                </a>
+                </div>
             </div>
             <div class="banner-item">
                 <img src="assets/images/wkdj/img7.png" alt=""/>
                 <div class="banner-desc">小幅面激光切割精度如何保证？直驱技术来帮忙！</div>
-                <a class="banner-href">
+                <div class="btn banner-href">
                     點擊查看更多案例
                     <img src="./assets/images/wkmd/href.svg" class="href-icon" alt=""/>
-                </a>
+                </div>
             </div>
             <div class="banner-item">
                 <img src="assets/images/wkdj/img8.png" alt=""/>
                 <div class="banner-desc">特种玻璃遇上直驱技术，这事儿“成”了</div>
-                <a class="banner-href">
+                <div class="btn banner-href">
                     點擊查看更多案例
                         <img src="./assets/images/wkmd/href.svg" class="href-icon" alt=""/>
-                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -874,12 +875,14 @@
                 </div>
                 <div class="item">
                     <p>E-mail*</p>
-                    <input type="text">
+                    <input type="text" class="email" name="email">
+                    <p class="error"></p>
                 </div>
             </div>
             <div class="submit-area">
                 <div class="item"></div>
-                <input type="submit" value="提交" class="item">
+                <input type="submit" value="提交"
+                       class="item">
                 <div class="item"></div>
             </div>
 
@@ -896,7 +899,7 @@
                 <p class="title">聯絡科爾摩根</p>
                 <p class="title-desc">請填寫並送出以下表單，我們會儘速與您聯絡</p>
                 <p class="tip">*為必填項目</p>
-                <form action="">
+                <form action="" id="form1">
                     <div class="input-item">
                     <label>公司名稱*</label>
                     <input type="text">
@@ -907,10 +910,11 @@
                     </div>
                     <div class="input-item">
                         <label>E-mail*</label>
-                        <input type="text">
+                        <input type="text" class="email" name="email">
+                        <p class="error"></p>
                     </div>
                     <div class="input-item last-item">
-                        <input type="submit" class="sub-btn" value="提交">
+                        <input type="submit" value="提交" class="sub-btn">
                     </div>
 
                 </form>
@@ -941,6 +945,26 @@
 </body>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        const emailReg = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/
+        const forms = [...document.getElementsByTagName('form')]
+        forms.forEach(form => {
+            form.addEventListener('submit', (e) => {
+                const email = form.elements.email
+                email.nextElementSibling.innerHTML = ''
+                if (!email.value.length) {
+                    email.nextElementSibling.innerHTML = '請填寫電子郵件'
+                    e.preventDefault()
+                    return
+                }
+                if (!emailReg.test(email.value)) {
+                    email.nextElementSibling.innerHTML = '請填寫正確的電子郵件格式'
+                    console.log('122, err')
+                    e.preventDefault()
+                    return;
+                }
+            })
+        })
+
         function initRem() {
             let html = document.documentElement;
             let wW = html.clientWidth; // 窗口宽度

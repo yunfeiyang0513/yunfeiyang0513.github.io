@@ -15,7 +15,11 @@ html, body {
 ul {
   padding-left: .15rem;
 }
-
+.error {
+  margin-top: .05rem;
+  font-size: .12rem;
+  color: red;
+}
 #app {
   .sub-title {
     color: #14206C;
@@ -143,7 +147,7 @@ ul {
       justify-content: space-between;
       padding-top: .03rem;
       img {
-        width: 50%;
+        flex: 372;
       }
     }
     .table-area {
@@ -217,8 +221,6 @@ ul {
     align-items: center;
     margin-bottom: .43rem;
     padding: .18rem 2.79rem;
-    border-top: .01rem solid #000;
-    border-bottom: .01rem solid #000;
     background: #F0F0F0;
     .block-left {
       .title {
@@ -277,7 +279,7 @@ ul {
     }
   }
   .tab-block{
-    margin-top: .2rem;
+    margin-top: .44rem;
     margin-bottom: .54rem;
     .title {
       margin-bottom: .11rem;
@@ -411,6 +413,10 @@ ul {
             margin-bottom: 0;
             width: .25rem;
           }
+        }
+        .btn {
+          width: 100%;
+          background-color: transparent;
         }
       }
     }

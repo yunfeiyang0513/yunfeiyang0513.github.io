@@ -44,51 +44,19 @@ ul {
 
   .block1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
     margin-top: .59rem;
+    padding-left: 2.74rem;
     padding-right: 2.76rem;
     gap: .61rem;
     .block-left {
       display: flex;
       padding-top: .21rem;
       width: 45.14%;
-      .img1-wrapper {
-        position: relative;
-        margin-right: .51rem;
+      img {
         width: 3.99rem;
-        height: 2.15rem;
-        border-radius: .05rem;
-        border: 0.01rem solid #000;
-        background: #FFF;
-        box-shadow: 0 0 .08rem 0.05rem rgba(184, 184, 184, 0.25);
-        .img-block {
-          position: absolute;
-          right: 0;
-          bottom: 0.13rem;
-          width: 1.26rem;
-          transform: translate(30%, 0);
-          img {
-            width: 100%;
-            display: block;
-          }
-        }
-      }
-      .img-desc {
-        color: #414042;
-        text-align: center;
-        font-family: Arial;
-        font-size: .14rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: .46rem;
-      }
-      .img2-wrapper {
-        width: 2rem;
-        img {
-          display: block;
-          width: 100%;
-        }
+        display: block;
       }
     }
     .block-right {
@@ -139,7 +107,7 @@ ul {
       justify-content: space-between;
       padding-top: .03rem;
       img {
-        width: 50%;
+        flex: 373;
       }
     }
     .table-area {
@@ -213,8 +181,6 @@ ul {
     align-items: flex-end;
     margin-bottom: .43rem;
     padding: .18rem 2.79rem;
-    border-top: .01rem solid #000;
-    border-bottom: .01rem solid #000;
     background: #F0F0F0;
     .block-left {
       .title {
@@ -273,7 +239,7 @@ ul {
     }
   }
   .tab-block{
-    margin-top: .2rem;
+    margin-top: .3rem;
     margin-bottom: .54rem;
     .title {
       margin-bottom: .11rem;
@@ -317,6 +283,12 @@ ul {
           th {
             padding: .05rem;
             text-align: left;
+            &:nth-of-type(1) {
+              text-align: center;
+            }
+            &:nth-of-type(2) {
+              text-align: center;
+            }
           }
         }
         tbody {
@@ -340,6 +312,7 @@ ul {
               font-weight: 700;
               writing-mode: vertical-lr;
               color: #14206C;
+              padding: .05rem 0;
               background-color: #a2daf5;
             }
             &:nth-of-type(2n+1) {

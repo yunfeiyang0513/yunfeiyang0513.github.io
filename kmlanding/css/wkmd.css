@@ -17,6 +17,12 @@ ul {
   padding-left: 0.15rem;
 }
 
+.error {
+  margin-top: 0.05rem;
+  font-size: 0.12rem;
+  color: red;
+}
+
 #app .sub-title {
   color: #14206C;
   font-family: Inter;
@@ -143,7 +149,7 @@ ul {
   padding-top: 0.03rem;
 }
 #app .block2 .img-wrapper img {
-  width: 50%;
+  flex: 372;
 }
 #app .block2 .table-area {
   font-size: 0.14rem;
@@ -206,8 +212,6 @@ ul {
   align-items: center;
   margin-bottom: 0.43rem;
   padding: 0.18rem 2.79rem;
-  border-top: 0.01rem solid #000;
-  border-bottom: 0.01rem solid #000;
   background: #F0F0F0;
 }
 #app .block3 .block-left .title {
@@ -260,7 +264,7 @@ ul {
   line-height: 1.5;
 }
 #app .tab-block {
-  margin-top: 0.2rem;
+  margin-top: 0.44rem;
   margin-bottom: 0.54rem;
 }
 #app .tab-block .title {
@@ -389,6 +393,10 @@ ul {
 #app .banner-area .banner-wrapper .banner-item .banner-href .href-icon {
   margin-bottom: 0;
   width: 0.25rem;
+}
+#app .banner-area .banner-wrapper .banner-item .btn {
+  width: 100%;
+  background-color: transparent;
 }
 #app .QA-item .sub-title {
   margin-bottom: 0.25rem;
