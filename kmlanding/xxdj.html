@@ -399,7 +399,6 @@
         function initRem() {
             let html = document.documentElement;
             let wW = html.clientWidth; // 窗口宽度
-            wW = Math.min(2200, wW);
             let rem = wW / (1440 / 100);
             document.documentElement.style.fontSize = rem + "px";
         }
