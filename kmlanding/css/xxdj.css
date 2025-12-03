@@ -400,6 +400,8 @@ ul {
 }
 #app .QA-item .content .item-right ul {
   margin-top: 0.1rem;
+  font-weight: bold;
+  color: #414042;
 }
 #app .block5 .title {
   margin-bottom: 0.22rem;
@@ -430,10 +432,12 @@ ul {
 #app .block5 .block-context .left .seq {
   font-size: 0.14rem;
   font-weight: 400;
+  color: #414042;
 }
 #app .block5 .block-context .left .desc {
   margin-top: 0.12rem;
   margin-bottom: 0.22rem;
+  color: #414042;
 }
 #app .block5 .block-context video {
   width: 5.15rem;
