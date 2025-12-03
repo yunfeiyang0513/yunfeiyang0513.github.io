@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-ul, li {
+ul, ol {
   list-style-type: disc;
 }
 

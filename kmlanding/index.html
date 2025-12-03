@@ -8,6 +8,7 @@
     <!-- vue.js -->
     <link rel="stylesheet" href="./css/global.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
+    <script src="./js/adapt.js"></script>
 </head>
 
 <body>
@@ -255,14 +256,7 @@
 </body>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        function initRem() {
-            let html = document.documentElement;
-            let wW = html.clientWidth; // 窗口宽度
-            let rem = wW / (1440 / 100);
-            document.documentElement.style.fontSize = rem + "px";
-        }
-        initRem()
-        window.addEventListener("resize", initRem);
+        initRem(1440)
     })
 </script>
 
