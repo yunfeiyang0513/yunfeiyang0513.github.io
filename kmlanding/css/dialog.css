@@ -80,6 +80,8 @@
   height: 0.52rem;
   background-color: #fcbc40;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 .dialog-modal .dialog-wrapper .left .last-item {
   margin-top: 0.31rem;

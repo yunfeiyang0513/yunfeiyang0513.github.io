@@ -869,11 +869,13 @@
             <div class="input-area">
                 <div class="item">
                     <p>公司名稱*</p>
-                    <input type="text">
+                    <input type="text" name="name">
+                    <p class="error"></p>
                 </div>
                 <div class="item">
                     <p>電話*</p>
-                    <input type="text">
+                    <input type="text" name="phone">
+                    <p class="error"></p>
                 </div>
                 <div class="item">
                     <p>E-mail*</p>
@@ -904,11 +906,13 @@
                 <form action="" id="form1">
                     <div class="input-item">
                     <label>公司名稱*</label>
-                    <input type="text">
+                        <input type="text" name="name">
+                        <p class="error"></p>
                     </div>
                     <div class="input-item">
                         <label>電話*</label>
-                        <input type="text">
+                        <input type="text" name="phone">
+                        <p class="error"></p>
                     </div>
                     <div class="input-item">
                         <label>E-mail*</label>
@@ -951,8 +955,20 @@
         const forms = [...document.getElementsByTagName('form')]
         forms.forEach(form => {
             form.addEventListener('submit', (e) => {
-                const email = form.elements.email
+                const { email, name, phone } = form.elements
                 email.nextElementSibling.innerHTML = ''
+                name.nextElementSibling.innerHTML = ''
+                phone.nextElementSibling.innerHTML = ''
+                if (!name.value.length) {
+                    name.nextElementSibling.innerHTML = '請填寫公司名稱'
+                    e.preventDefault()
+                    return
+                }
+                if (!phone.value.length) {
+                    phone.nextElementSibling.innerHTML = '請填寫電話號碼'
+                    e.preventDefault()
+                    return
+                }
                 if (!email.value.length) {
                     email.nextElementSibling.innerHTML = '請填寫電子郵件'
                     e.preventDefault()

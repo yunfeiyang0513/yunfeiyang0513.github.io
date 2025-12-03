@@ -513,6 +513,7 @@ ul {
   line-height: 0.19rem;
   font-size: 0.14rem;
   outline: none;
+  border: none;
 }
 #app .footer .footer-form .submit-area {
   display: flex;
@@ -535,6 +536,8 @@ ul {
   border-radius: 0.04rem;
   background-color: #fcbc40;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 #app .page-footer {
   display: flex;
