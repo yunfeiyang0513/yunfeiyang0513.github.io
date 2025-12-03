@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kollmorgen</title>
     <!-- vue.js -->
+    <link rel="stylesheet" href="./css/global.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
@@ -262,9 +263,7 @@
         function initRem() {
             let html = document.documentElement;
             let wW = html.clientWidth; // 窗口宽度
-            // if(wW>1920){
-            //     wW=1920;
-            // }
+            wW = Math.min(2200, wW);
             let rem = wW / (1440 / 100);
             document.documentElement.style.fontSize = rem + "px";
         }
