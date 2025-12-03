@@ -10,7 +10,6 @@ ul {
 
 #app .sub-title {
   color: #14206C;
-  font-family: Inter;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -37,7 +36,6 @@ ul {
   width: 100%;
   aspect-ratio: 1440/369;
   color: #FFF;
-  font-family: Inter;
   font-size: 0.42rem;
   font-weight: 700;
   background-image: url("../assets/images/xxdj/banner_bg.png");
@@ -46,7 +44,6 @@ ul {
 #app .banner .ctx-area .title {
   margin-bottom: 0.21rem;
   color: #FFF;
-  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -65,7 +62,6 @@ ul {
   margin-bottom: 0.22rem;
   gap: 0.14rem;
   color: #FCBC40;
-  font-family: Arial;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -108,7 +104,6 @@ ul {
   width: 1.58rem;
   color: #14206C;
   text-align: center;
-  font-family: Arial;
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
@@ -132,7 +127,6 @@ ul {
   margin-bottom: 0.14rem;
   color: #14206C;
   text-align: center;
-  font-family: Arial;
   font-size: 0.24rem;
   line-height: 1;
   font-style: normal;
@@ -202,7 +196,6 @@ ul {
 #app .block3 .title {
   margin-bottom: 0.15rem;
   color: #14206C;
-  font-family: Arial;
   font-size: 0.24rem;
   font-style: normal;
   text-align: center;
@@ -310,7 +303,6 @@ ul {
   margin-bottom: 0.2rem;
   color: #24608D;
   text-align: center;
-  font-family: "Source Han Sans CN";
   font-size: 0.2rem;
   font-style: normal;
   font-weight: 400;
@@ -341,7 +333,6 @@ ul {
 }
 #app .QA-item .content .item-right .title {
   color: #24608D;
-  font-family: "Source Han Sans CN";
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
@@ -351,7 +342,6 @@ ul {
   margin-top: 0.1rem;
   margin-bottom: 0.22rem;
   color: #414042;
-  font-family: "Source Han Sans CN";
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 400;
@@ -377,7 +367,6 @@ ul {
   margin-bottom: 0.22rem;
   color: #14206C;
   text-align: center;
-  font-family: Inter;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -392,7 +381,6 @@ ul {
 }
 #app .block5 .block-context .left .title {
   color: #24608D;
-  font-family: Inter;
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
@@ -473,7 +461,6 @@ ul {
 #app .footer .title-desc {
   color: #FFF;
   text-align: center;
-  font-family: Arial;
   font-size: 0.16rem;
   font-style: normal;
   font-weight: 400;
@@ -516,7 +503,6 @@ ul {
 #app .footer .footer-form .submit-area input {
   color: #14206C;
   text-align: center;
-  font-family: Arial;
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
@@ -534,7 +520,6 @@ ul {
   gap: 0.22rem;
   background: rgba(217, 217, 217, 0.5);
   color: rgba(70, 80, 82, 0.5);
-  font-family: Arial;
   font-size: 0.12rem;
   font-style: normal;
   font-weight: 700;

@@ -1,21 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "kmfont";
-  src: url("../assets/font/SourceHanSansCN-Regular.otf");
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: disc;
-}
-
-html, body {
-  width: 100vw;
-  margin: 0 auto;
-  background-color: white;
-}
-
 #app {
   width: 100%;
   height: 100%;
@@ -40,7 +23,6 @@ html, body {
   width: 100%;
 }
 #app .banner .img-wrapper .page-title {
-  font-family: "kmfont";
   font-size: 0.4rem;
   font-weight: 700;
   color: white;
@@ -54,7 +36,6 @@ html, body {
   background-color: white;
 }
 #app .content .sub-title {
-  font-family: "kmfont";
   font-size: 0.24rem;
   color: #14206C;
   font-weight: 700;
@@ -224,7 +205,6 @@ html, body {
 }
 #app .content .QA-item .list-wrapper .list-item .list-title {
   margin-bottom: 0.12rem;
-  font-family: "kmfont";
   font-size: 0.14rem;
   color: #14206C;
   font-weight: bold;

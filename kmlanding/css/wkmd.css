@@ -11,7 +11,6 @@ ul {
 
 #app .sub-title {
   color: #14206C;
-  font-family: Inter;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -34,7 +33,6 @@ ul {
   width: 100%;
   aspect-ratio: 1440/369;
   color: #FFF;
-  font-family: Inter;
   font-size: 0.42rem;
   font-weight: 700;
   background-image: url("../assets/images/wkmd/banner.png");
@@ -43,7 +41,6 @@ ul {
 #app .banner .ctx-area .title {
   margin-bottom: 0.21rem;
   color: #FFF;
-  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -62,7 +59,6 @@ ul {
   margin-bottom: 0.26rem;
   gap: 0.14rem;
   color: #FCBC40;
-  font-family: Arial;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -103,7 +99,6 @@ ul {
   width: 1.58rem;
   color: #14206C;
   text-align: center;
-  font-family: Arial;
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
@@ -122,7 +117,6 @@ ul {
 #app .block2 .title {
   color: #14206C;
   text-align: center;
-  font-family: Arial;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -206,7 +200,6 @@ ul {
 #app .block3 .block-left .title {
   margin-bottom: 0.15rem;
   color: #14206C;
-  font-family: Arial;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -241,7 +234,6 @@ ul {
 #app .block4 .block-right .title {
   margin-bottom: 0.11rem;
   color: #14206C;
-  font-family: Arial;
   font-size: 0.24rem;
   font-style: normal;
   font-weight: 700;
@@ -259,7 +251,6 @@ ul {
 #app .tab-block .title {
   margin-bottom: 0.11rem;
   color: #14206C;
-  font-family: Arial;
   font-size: 0.24rem;
   text-align: center;
   font-style: normal;
@@ -404,7 +395,6 @@ ul {
 }
 #app .QA-item .list-wrapper .list-item .list-title {
   margin-bottom: 0.12rem;
-  font-family: "kmfont";
   font-size: 0.14rem;
   color: #14206C;
   font-weight: bold;
@@ -483,7 +473,6 @@ ul {
 #app .footer .title-desc {
   color: #FFF;
   text-align: center;
-  font-family: Arial;
   font-size: 0.16rem;
   font-style: normal;
   font-weight: 400;
@@ -527,7 +516,6 @@ ul {
 #app .footer .footer-form .submit-area input {
   color: #14206C;
   text-align: center;
-  font-family: Arial;
   font-size: 0.14rem;
   font-style: normal;
   font-weight: 700;
@@ -547,7 +535,6 @@ ul {
   gap: 0.22rem;
   background: rgba(217, 217, 217, 0.5);
   color: rgba(70, 80, 82, 0.5);
-  font-family: Arial;
   font-size: 0.12rem;
   font-style: normal;
   font-weight: 700;
