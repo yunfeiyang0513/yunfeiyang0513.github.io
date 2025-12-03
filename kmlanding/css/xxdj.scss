@@ -184,6 +184,7 @@ ul {
         line-height: 1;
         background-color: #4FBBE9;
         &-name {
+          font-weight: 700;
           margin-bottom: .2rem;
         }
         .desc-item {
@@ -260,6 +261,9 @@ ul {
         }
         ul {
           font-weight: 400;
+          li {
+            margin-bottom: .2rem;
+          }
         }
         img {
           margin-bottom: .16rem;

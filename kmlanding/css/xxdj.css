@@ -186,6 +186,7 @@ ul {
   background-color: #4FBBE9;
 }
 #app .block2 .block-context .item-name {
+  font-weight: 700;
   margin-bottom: 0.2rem;
 }
 #app .block2 .block-context .item .desc-item {
@@ -261,6 +262,9 @@ ul {
 }
 #app .block3 .block-context .item ul {
   font-weight: 400;
+}
+#app .block3 .block-context .item ul li {
+  margin-bottom: 0.2rem;
 }
 #app .block3 .block-context .item img {
   margin-bottom: 0.16rem;
