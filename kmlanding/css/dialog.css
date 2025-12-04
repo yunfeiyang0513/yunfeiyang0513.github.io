@@ -12,110 +12,110 @@
   left: 50%;
   display: flex;
   width: 74.5%;
-  height: fit-content;
-  border-radius: 2px;
+  height: 78%;
+  border-radius: calc(var(--scale) * 2px);
   transform: translate(-50%, -50%);
 }
 .dialog-modal .dialog-wrapper .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 37px 72px 42px 77px;
+  padding: calc(var(--scale) * 37px) calc(var(--scale) * 72px) calc(var(--scale) * 42px) calc(var(--scale) * 77px);
   width: 68.5%;
-  border-radius: 4px 0 0 2px;
+  border-radius: calc(var(--scale) * 4px) 0 0 calc(var(--scale) * 2px);
   background-color: #fff;
 }
 .dialog-modal .dialog-wrapper .left .title {
   color: #14206C;
-  font-size: 20px;
+  font-size: calc(var(--scale) * 20px);
   font-style: normal;
   font-weight: 700;
   line-height: 2.3;
 }
 .dialog-modal .dialog-wrapper .left .title-desc {
-  margin-bottom: 9px;
+  margin-bottom: calc(var(--scale) * 9px);
   color: #465052;
-  font-size: 16px;
+  font-size: calc(var(--scale) * 16px);
   font-style: normal;
   font-weight: 400;
   line-height: 2.9;
 }
 .dialog-modal .dialog-wrapper .left .tip {
-  margin-bottom: 7px;
+  margin-bottom: calc(var(--scale) * 7px);
   color: #999;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 400;
   line-height: 2.3;
 }
 .dialog-modal .dialog-wrapper .left .input-item {
-  margin-top: 14px;
+  margin-top: calc(var(--scale) * 14px);
 }
 .dialog-modal .dialog-wrapper .left .input-item label {
   display: block;
   color: #999;
-  font-size: 16px;
+  font-size: calc(var(--scale) * 6px);
   font-style: normal;
   font-weight: 400;
   line-height: 200%;
 }
 .dialog-modal .dialog-wrapper .left .input-item input {
   width: 100%;
-  height: 32px;
-  font-size: 14px;
-  border: 1px solid #E0E0E2;
+  height: calc(var(--scale) * 32px);
+  font-size: calc(var(--scale) * 14px);
+  border: calc(var(--scale) * 1px) solid #E0E0E2;
 }
 .dialog-modal .dialog-wrapper .left .input-item .sub-btn {
   color: #14206C;
   text-align: center;
-  font-size: 20px;
+  font-size: calc(var(--scale) * 20px);
   line-height: 1;
   font-style: normal;
   font-weight: 700;
-  height: 52px;
+  height: calc(var(--scale) * 52px);
   background-color: #fcbc40;
   cursor: pointer;
   border: none;
   outline: none;
 }
 .dialog-modal .dialog-wrapper .left .last-item {
-  margin-top: 31px;
+  margin-top: calc(var(--scale) * 31px);
 }
 .dialog-modal .dialog-wrapper .right {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 51px 34px 84px 52px;
+  padding: calc(var(--scale) * 51px) calc(var(--scale) * 34px) calc(var(--scale) * 84px) calc(var(--scale) * 52px);
   flex: 1;
-  border-radius: 0rem 2px 2px 0rem;
+  border-radius: 0rem calc(var(--scale) * 2px) calc(var(--scale) * 2px) 0rem;
   background: #14206C;
 }
 .dialog-modal .dialog-wrapper .right .title {
-  margin-bottom: 8px;
+  margin-bottom: calc(var(--scale) * 8px);
   color: #F5F5F5;
-  font-size: 20px;
+  font-size: calc(var(--scale) * 20px);
   font-style: normal;
   font-weight: 700;
   line-height: 135%;
 }
 .dialog-modal .dialog-wrapper .right .desc {
-  margin-bottom: 52px;
+  margin-bottom: calc(var(--scale) * 52px);
   color: #F5F5F5;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 400;
   line-height: 1.4; /* 142.857% */
 }
 .dialog-modal .dialog-wrapper .right ul {
-  margin-bottom: 51px;
+  margin-bottom: calc(var(--scale) * 51px);
   color: #F5F5F5;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 400;
   line-height: 1.9;
 }
 .dialog-modal .dialog-wrapper .right img {
-  width: 260px;
+  width: calc(var(--scale) * 260px);
 }
 .dialog-modal .dialog-wrapper .close {
   position: absolute;
@@ -124,13 +124,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: calc(var(--scale) * 60px);
+  height: calc(var(--scale) * 60px);
   border-radius: 50%;
   background-color: white;
   cursor: pointer;
   transform: translate(50%, -50%);
 }
 .dialog-modal .dialog-wrapper .close img {
-  width: 14px;
+  width: calc(var(--scale) * 14px);
 }

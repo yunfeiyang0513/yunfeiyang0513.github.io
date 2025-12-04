@@ -1,3 +1,4 @@
+@import "./function";
 .dialog-modal {
   position: fixed;
   top: 0;
@@ -11,64 +12,64 @@
     left: 50%;
     display: flex;
     width: 74.5%;
-    height: fit-content;
-    border-radius: 2px;
+    height: 78%;
+    border-radius: transSize(2);
     transform: translate(-50%, -50%);
     .left {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 37px 72px 42px 77px;
+      padding: transSize(37) transSize(72)  transSize(42)  transSize(77);
       width: 68.5%;
-      border-radius: 4px 0 0 2px;
+      border-radius: transSize(4)  0 0 transSize(2);
       background-color: #fff;
       .title {
         color: #14206C;
-        font-size: 20px;
+        font-size: transSize(20) ;
         font-style: normal;
         font-weight: 700;
         line-height: 2.3;
       }
       .title-desc {
-        margin-bottom: 9px;
+        margin-bottom: transSize(9) ;
         color: #465052;
-        font-size: 16px;
+        font-size: transSize(16) ;
         font-style: normal;
         font-weight: 400;
         line-height: 2.9;
       }
       .tip {
-        margin-bottom: 7px;
+        margin-bottom: transSize(7) ;
         color: #999;
-        font-size: 14px;
+        font-size: transSize(14);
         font-style: normal;
         font-weight: 400;
         line-height: 2.3;
       }
       .input-item {
-        margin-top: 14px;
+        margin-top: transSize(14) ;
         label {
           display: block;
           color: #999;
-          font-size: 16px;
+          font-size: transSize(6) ;
           font-style: normal;
           font-weight: 400;
           line-height: 200%
         }
         input {
           width: 100%;
-          height: 32px;
-          font-size: 14px;
-          border: 1px solid #E0E0E2;;
+          height: transSize(32) ;
+          font-size: transSize(14) ;
+          border: transSize(1)  solid #E0E0E2;;
         }
         .sub-btn {
           color: #14206C;
           text-align: center;
-          font-size: 20px;
+          font-size: transSize(20) ;
           line-height: 1;
           font-style: normal;
           font-weight: 700;
-          height: 52px;
+          height: transSize(52) ;
           background-color: #fcbc40;
           cursor: pointer ;
           border: none;
@@ -76,43 +77,43 @@
         }
       }
       .last-item {
-        margin-top: 31px;
+        margin-top: transSize(31) ;
       }
     }
     .right {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 51px 34px 84px 52px;
+      padding: transSize(51)  transSize(34)  transSize(84)  transSize(52) ;
       flex: 1;
-      border-radius: 0rem 2px 2px 0rem;
+      border-radius: 0rem transSize(2)  transSize(2)  0rem;
       background: #14206C;
       .title {
-        margin-bottom: 8px;
+        margin-bottom: transSize(8) ;
         color: #F5F5F5;
-        font-size: 20px;
+        font-size: transSize(20) ;
         font-style: normal;
         font-weight: 700;
         line-height: 135%
       }
       .desc{
-        margin-bottom: 52px;
+        margin-bottom: transSize(52) ;
         color: #F5F5F5;
-        font-size: 14px;
+        font-size: transSize(14) ;
         font-style: normal;
         font-weight: 400;
         line-height: 1.4; /* 142.857% */
       }
       ul {
-        margin-bottom: 51px;
+        margin-bottom: transSize(51) ;
         color: #F5F5F5;
-        font-size: 14px;
+        font-size: transSize(14) ;
         font-style: normal;
         font-weight: 400;
         line-height: 1.9;
       }
       img {
-        width: 260px
+        width: transSize(260)
       }
     }
     .close {
@@ -122,14 +123,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 60px;
-      height: 60px;
+      width: transSize(60) ;
+      height: transSize(60) ;
       border-radius: 50%;
       background-color: white;
       cursor: pointer;
       transform: translate(50%, -50%);
       img {
-        width: 14px;
+        width: transSize(14) ;
       }
 
     }

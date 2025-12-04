@@ -1,20 +1,20 @@
 @charset "UTF-8";
 ul {
-  padding-left: 15px;
+  padding-left: calc(var(--scale) * 15px);
 }
 
 .error {
-  margin-top: 5px;
-  font-size: 12px;
+  margin-top: calc(var(--scale) * 5px);
+  font-size: calc(var(--scale) * 12px);
   color: red;
 }
 
 #app {
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
 }
 #app .sub-title {
   color: #14206C;
-  font-size: 24px;
+  font-size: calc(var(--scale) * 24px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -26,23 +26,24 @@ ul {
   padding-left: 19.4%;
 }
 #app .page-header img {
-  width: 180px;
+  width: calc(var(--scale) * 180px);
 }
 #app .banner {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  padding: 34px 19.4% 34px 19.4%;
+  padding: calc(var(--scale) * 34px) 19.4% calc(var(--scale) * 34px) 19.4%;
   width: 100%;
   color: #FFF;
-  font-size: 42px;
+  font-size: calc(var(--scale) * 42px);
   font-weight: 700;
+  aspect-ratio: 1440/369;
   background-image: url("../assets/images/wkmd/banner.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 #app .banner .ctx-area .title {
-  margin-bottom: 21px;
+  margin-bottom: calc(var(--scale) * 21px);
   color: #FFF;
   font-style: normal;
   font-weight: 700;
@@ -50,35 +51,35 @@ ul {
   text-transform: capitalize;
 }
 #app .banner .ctx-area .title .main-title {
-  font-size: 36px;
+  font-size: calc(var(--scale) * 36px);
 }
 #app .banner .ctx-area .title .sub-title {
   color: #FFF;
-  font-size: 30px;
+  font-size: calc(var(--scale) * 30px);
 }
 #app .banner .ctx-area .item {
   display: flex;
   align-items: center;
-  margin-bottom: 26px;
+  margin-bottom: calc(var(--scale) * 26px);
   gap: 14px;
   color: #FCBC40;
-  font-size: 24px;
+  font-size: calc(var(--scale) * 24px);
   font-style: normal;
   font-weight: 700;
 }
 #app .banner .ctx-area .item img {
-  width: 32px;
+  width: calc(var(--scale) * 32px);
 }
 #app .banner .ctx-area .btn-wrapper {
   display: flex;
-  gap: 28px;
-  font-size: 24px;
+  gap: calc(var(--scale) * 28px);
+  font-size: calc(var(--scale) * 24px);
 }
 #app .banner .ctx-area .btn-wrapper .btn {
-  height: 32px;
-  line-height: 32px;
+  height: calc(var(--scale) * 32px);
+  line-height: calc(var(--scale) * 32px);
   flex: 1;
-  border-radius: 4px;
+  border-radius: calc(var(--scale) * 4px);
 }
 #app .banner .ctx-area .btn-wrapper .btn1 {
   color: #14206C;
@@ -87,40 +88,40 @@ ul {
 #app .banner .ctx-area .btn-wrapper .btn2 {
   color: white;
   background-color: transparent;
-  border: 1px solid #FCBC40;
+  border: calc(var(--scale) * 1px) solid #FCBC40;
 }
 #app .banner .img-wrapper {
   display: flex;
   align-items: flex-end;
-  margin-left: 20px;
+  margin-left: calc(var(--scale) * 20px);
 }
 #app .banner .img-wrapper img {
-  margin-top: 60px;
-  width: 490px;
+  margin-top: calc(var(--scale) * 60px);
+  width: calc(var(--scale) * 490px);
 }
 #app .btn {
-  margin-top: 16px;
-  width: 158px;
+  margin-top: calc(var(--scale) * 16px);
+  width: calc(var(--scale) * 158px);
   color: #14206C;
   text-align: center;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 700;
   line-height: 2.3;
-  border-radius: 4px;
+  border-radius: calc(var(--scale) * 4px);
   background-color: #fcbc40;
   cursor: pointer;
 }
 #app .block2 {
   padding-left: 19.4%;
   padding-right: 19.4%;
-  margin-top: 39px;
-  margin-bottom: 39px;
+  margin-top: calc(var(--scale) * 39px);
+  margin-bottom: calc(var(--scale) * 39px);
 }
 #app .block2 .title {
   color: #14206C;
   text-align: center;
-  font-size: 24px;
+  font-size: calc(var(--scale) * 24px);
   font-style: normal;
   font-weight: 700;
   line-height: 1.91; /* 191.667% */
@@ -131,25 +132,25 @@ ul {
 #app .block2 .img-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 3px;
+  padding-top: calc(var(--scale) * 3px);
 }
 #app .block2 .img-wrapper img {
   flex: 372;
-  width: 377px;
+  width: calc(var(--scale) * 377px);
 }
 #app .block2 .table-area {
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
 }
 #app .block2 .table-area .tb-header {
   display: flex;
   justify-content: space-between;
-  gap: 4px;
+  gap: calc(var(--scale) * 4px);
   width: 100%;
   font-weight: 700;
   color: #414042;
 }
 #app .block2 .table-area .tb-header .td-item {
-  padding: 11px 0;
+  padding: calc(var(--scale) * 11px) 0;
   text-align: center;
   background-color: #e8e8e8;
 }
@@ -160,10 +161,10 @@ ul {
 #app .block2 .table-area .tb-body .tr-item {
   display: flex;
   justify-content: space-between;
-  gap: 4px;
+  gap: calc(var(--scale) * 4px);
 }
 #app .block2 .table-area .tb-body .tr-item .td-item {
-  padding: 11px 0;
+  padding: calc(var(--scale) * 11px) 0;
   text-align: center;
   color: #414042;
 }
@@ -196,24 +197,24 @@ ul {
 #app .block3 {
   display: flex;
   align-items: center;
-  margin-bottom: 43px;
-  padding: 18px 19.4%;
+  margin-bottom: calc(var(--scale) * 43px);
+  padding: calc(var(--scale) * 18px) 19.4%;
   background: #F0F0F0;
 }
 #app .block3 .block-left {
   width: 49.8%;
 }
 #app .block3 .block-left .title {
-  margin-bottom: 15px;
+  margin-bottom: calc(var(--scale) * 15px);
   color: #14206C;
-  font-size: 24px;
+  font-size: calc(var(--scale) * 24px);
   font-style: normal;
   font-weight: 700;
 }
 #app .block3 .block-left ul {
-  padding-left: 15px;
+  padding-left: calc(var(--scale) * 15px);
   color: #414042;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
 }
 #app .block3 .block-left ul .sub-ul li {
   list-style-type: none;
@@ -221,10 +222,10 @@ ul {
 #app .block3 .block-right {
   display: flex;
   align-items: flex-end;
-  margin-left: 75px;
+  margin-left: calc(var(--scale) * 75px);
 }
 #app .block3 .block-right img {
-  width: 199px;
+  width: calc(var(--scale) * 199px);
 }
 #app .block4 {
   display: flex;
@@ -235,12 +236,12 @@ ul {
   width: 50%;
 }
 #app .block4 .block-left img {
-  width: 312px;
+  width: calc(var(--scale) * 312px);
 }
 #app .block4 .block-right .title {
-  margin-bottom: 11px;
+  margin-bottom: calc(var(--scale) * 11px);
   color: #14206C;
-  font-size: 24px;
+  font-size: calc(var(--scale) * 24px);
   font-style: normal;
   font-weight: 700;
 }
@@ -251,13 +252,13 @@ ul {
   line-height: 1.5;
 }
 #app .tab-block {
-  margin-top: 44px;
-  margin-bottom: 54px;
+  margin-top: calc(var(--scale) * 44px);
+  margin-bottom: calc(var(--scale) * 54px);
 }
 #app .tab-block .title {
-  margin-bottom: 11px;
+  margin-bottom: calc(var(--scale) * 11px);
   color: #14206C;
-  font-size: 24px;
+  font-size: calc(var(--scale) * 24px);
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -265,21 +266,21 @@ ul {
 #app .tab-block .tab-area {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #C5C5C5;
+  border-bottom: calc(var(--scale) * 1px) solid #C5C5C5;
 }
 #app .tab-block .tab-area .tab-item {
-  padding: 16px 30px;
+  padding: calc(var(--scale) * 16px) calc(var(--scale) * 30px);
   color: #636363;
-  font-size: 16px;
+  font-size: calc(var(--scale) * 16px);
   font-weight: 600;
   cursor: pointer;
 }
 #app .tab-block .tab-area .active {
   color: #14206C;
-  border-bottom: 2px solid #ECB62D;
+  border-bottom: calc(var(--scale) * 2px) solid #ECB62D;
 }
 #app .tab-block .tab-content {
-  padding-top: 20px;
+  padding-top: calc(var(--scale) * 20px);
 }
 #app .tab-block .tab-content .tab-1 {
   width: 100%;
@@ -288,18 +289,18 @@ ul {
   margin: 0 auto;
   padding: 0 19.4%;
   width: 100%;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   border-collapse: separate;
-  border-spacing: 1px;
+  border-spacing: calc(var(--scale) * 1px);
 }
 #app .tab-block .tab-content table thead {
   color: #14206C;
   background-color: #a2daf5;
 }
 #app .tab-block .tab-content table thead th {
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   white-space: nowrap;
-  padding: 5px;
+  padding: calc(var(--scale) * 5px);
   text-align: left;
 }
 #app .tab-block .tab-content table thead th:nth-of-type(1) {
@@ -309,7 +310,7 @@ ul {
   text-align: center;
 }
 #app .tab-block .tab-content table tbody td {
-  padding: 0 0 0 2px;
+  padding: 0 0 0 calc(var(--scale) * 2px);
 }
 #app .tab-block .tab-content table tbody tr:nth-of-type(2n) {
   background-color: #fcfcfc;
@@ -318,13 +319,13 @@ ul {
   background-color: #e8e8e8;
 }
 #app .tab-block .tab-content .tb2 {
-  margin-top: 40px;
+  margin-top: calc(var(--scale) * 40px);
 }
 #app .tab-block .tab-content .tb2 tbody tr td {
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
 }
 #app .tab-block .tab-content .tb2 tbody tr td:nth-of-type(1) {
-  padding: 5px 0;
+  padding: calc(var(--scale) * 5px) 0;
   color: #14206C;
   font-weight: 700;
   writing-mode: vertical-lr;
@@ -339,89 +340,89 @@ ul {
   background-color: #fcfcfc;
 }
 #app .banner-area {
-  padding: 0 19.4% 44px 19.4%;
+  padding: 0 19.4% calc(var(--scale) * 44px) 19.4%;
 }
 #app .banner-area .sub-title {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: calc(var(--scale) * 24px);
 }
 #app .banner-area .banner-wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: calc(var(--scale) * 20px);
 }
 #app .banner-area .banner-wrapper .banner-item {
-  padding: 19px 9px;
+  padding: calc(var(--scale) * 19px) calc(var(--scale) * 9px);
   flex: 1;
-  border-radius: 10px;
+  border-radius: calc(var(--scale) * 10px);
   background: #FFF;
-  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.1490196078);
+  box-shadow: calc(var(--scale) * 3px) calc(var(--scale) * 3px) calc(var(--scale) * 10px) calc(var(--scale) * 6px) rgba(0, 0, 0, 0.1490196078);
 }
 #app .banner-area .banner-wrapper .banner-item img {
   display: block;
-  margin-bottom: 21px;
+  margin-bottom: calc(var(--scale) * 21px);
   width: 100%;
 }
 #app .banner-area .banner-wrapper .banner-item .banner-desc {
   display: block;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   color: #14206C;
   text-decoration: none;
   font-weight: 700;
-  height: 45px;
-  border-bottom: 1px solid #465052;
+  height: calc(var(--scale) * 45px);
+  border-bottom: calc(var(--scale) * 1px) solid #465052;
 }
 #app .banner-area .banner-wrapper .banner-item .banner-href {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 11px;
+  margin-top: calc(var(--scale) * 11px);
   color: #FCBC40;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 700;
   cursor: pointer;
 }
 #app .banner-area .banner-wrapper .banner-item .banner-href .href-icon {
   margin-bottom: 0;
-  width: 25px;
+  width: calc(var(--scale) * 25px);
 }
 #app .banner-area .banner-wrapper .banner-item .btn {
   width: 100%;
   background-color: transparent;
 }
 #app .QA-item .sub-title {
-  margin-bottom: 25px;
+  margin-bottom: calc(var(--scale) * 25px);
   text-align: center;
 }
 #app .QA-item .list-wrapper {
-  padding: 0 19.4% 44px 19.4%;
+  padding: 0 19.4% calc(var(--scale) * 44px) 19.4%;
 }
 #app .QA-item .list-wrapper .list-item {
   position: relative;
-  padding-left: 25px;
-  margin-bottom: 25px;
+  padding-left: calc(var(--scale) * 25px);
+  margin-bottom: calc(var(--scale) * 25xpx);
 }
 #app .QA-item .list-wrapper .list-item:nth-last-of-type(1) {
   margin-bottom: 0;
 }
 #app .QA-item .list-wrapper .list-item .list-title {
-  margin-bottom: 12px;
-  font-size: 14px;
+  margin-bottom: calc(var(--scale) * 12px);
+  font-size: calc(var(--scale) * 14px);
   color: #14206C;
   font-weight: bold;
 }
 #app .QA-item .list-wrapper .list-item .list-ctx {
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   color: #414042;
 }
 #app .QA-item .list-wrapper .list-item:after {
   position: absolute;
   left: 0;
-  top: -1px;
+  top: calc(var(--scale) * -1px);
   content: "•";
   color: #4A4459;
-  font-size: 18px;
+  font-size: calc(var(--scale) * 18px);
   font-weight: bold;
 }
 #app .footer {
@@ -429,12 +430,12 @@ ul {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 27px 19.4% 44px 19.4%;
+  padding: calc(var(--scale) * 27px) 19.4% calc(var(--scale) * 44px) 19.4%;
   background-color: #102b5b;
 }
 #app .footer .title {
-  margin-bottom: 8px;
-  font-size: 26px;
+  margin-bottom: calc(var(--scale) * 8px);
+  font-size: calc(var(--scale) * 26px);
   font-weight: 600;
   line-height: 1.91;
   text-align: center;
@@ -443,8 +444,8 @@ ul {
 #app .footer .sub-title {
   position: relative;
   width: 100%;
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: calc(var(--scale) * 18px);
+  margin-bottom: calc(var(--scale) * 20px);
   color: white;
   text-align: center;
 }
@@ -453,7 +454,7 @@ ul {
   left: 0;
   top: 50%;
   width: 30%;
-  height: 2px;
+  height: calc(var(--scale) * 2px);
   content: "";
   background-color: white;
   transform: translateY(-50%);
@@ -464,17 +465,17 @@ ul {
   top: 50%;
   content: "";
   width: 30%;
-  height: 2px;
+  height: calc(var(--scale) * 2px);
   background-color: white;
   transform: translateY(-50%);
 }
 #app .footer .footer-ctx {
-  margin-bottom: 44px;
-  font-size: 16px;
+  margin-bottom: calc(var(--scale) * 44px);
+  font-size: calc(var(--scale) * 16px);
   line-height: 1.51;
 }
 #app .footer .footer-ctx p {
-  margin-bottom: 20px;
+  margin-bottom: calc(var(--scale) * 20px);
   color: white;
 }
 #app .footer .footer-ctx .em {
@@ -484,13 +485,13 @@ ul {
 #app .footer .title-desc {
   color: #FFF;
   text-align: center;
-  font-size: 16px;
+  font-size: calc(var(--scale) * 16px);
   font-style: normal;
   font-weight: 400;
 }
 #app .footer .require-tip {
   color: white;
-  font-size: 12px;
+  font-size: calc(var(--scale) * 12px);
 }
 #app .footer .footer-form {
   width: 100%;
@@ -498,27 +499,27 @@ ul {
 #app .footer .footer-form .input-area {
   display: flex;
   justify-content: space-between;
-  gap: 57px;
+  gap: calc(var(--scale) * 57px);
   width: 100%;
 }
 #app .footer .footer-form .input-area .item {
   flex: 1;
   color: white;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
 }
 #app .footer .footer-form .input-area .item input {
-  margin-top: 5px;
+  margin-top: calc(var(--scale) * 5px);
   width: 100%;
   line-height: 1.4;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   outline: none;
   border: none;
 }
 #app .footer .footer-form .submit-area {
   display: flex;
   justify-content: space-between;
-  gap: 57px;
-  margin-top: 25px;
+  gap: calc(var(--scale) * 57px);
+  margin-top: calc(var(--scale) * 25px);
 }
 #app .footer .footer-form .submit-area .item {
   flex: 1;
@@ -526,11 +527,11 @@ ul {
 #app .footer .footer-form .submit-area input {
   color: #14206C;
   text-align: center;
-  font-size: 14px;
+  font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 700;
   line-height: 1.9;
-  border-radius: 4px;
+  border-radius: calc(var(--scale) * 4px);
   background-color: #fcbc40;
   cursor: pointer;
   outline: none;
@@ -540,14 +541,14 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
-  gap: 22px;
+  padding: calc(var(--scale) * 24px) 0;
+  gap: calc(var(--scale) * 22px);
   background: rgba(217, 217, 217, 0.5);
   color: rgba(70, 80, 82, 0.5);
-  font-size: 12px;
+  font-size: calc(var(--scale) * 12px);
   font-style: normal;
   font-weight: 700;
 }
 #app .page-footer img {
-  width: 123px;
+  width: calc(var(--scale) * 123px);
 }

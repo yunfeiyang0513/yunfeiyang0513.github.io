@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/global.css"/>
     <link rel="stylesheet" href="./css/wkmd.css"/>
     <link rel="stylesheet" href="./css/dialog.css"/>
+    <script src="./js/adapt.js"></script>
 </head>
 <body>
 <div id="app">
@@ -949,6 +950,7 @@
 </body>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        initRem(1440)
         const emailReg = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/
         const forms = [...document.getElementsByTagName('form')]
         forms.forEach(form => {

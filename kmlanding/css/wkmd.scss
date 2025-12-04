@@ -1,17 +1,18 @@
+@import "./function";
 
 ul {
-  padding-left: 15px;
+  padding-left: transSize(15) ;
 }
 .error {
-  margin-top: 5px;
-  font-size: 12px;
+  margin-top: transSize(5) ;
+  font-size: transSize(12) ;
   color: red;
 }
 #app {
-  font-size: 14px;
+  font-size: transSize(14) ;
   .sub-title {
     color: #14206C;
-    font-size: 24px;
+    font-size: transSize(24) ;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -22,59 +23,60 @@ ul {
   .page-header {
     padding-left: 19.4%;
     img {
-      width: 180px;
+      width: transSize(180) ;
     }
   }
   .banner {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    padding: 34px 19.4% 34px 19.4%;
+    padding: transSize(34)  19.4% transSize(34)  19.4%;
     width: 100%;
     color: #FFF;
-    font-size: 42px;
+    font-size: transSize(42) ;
     font-weight: 700;
+    aspect-ratio: 1440/369;
     background-image: url('../assets/images/wkmd/banner.png');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     .ctx-area {
       .title {
-        margin-bottom: 21px;
+        margin-bottom: transSize(21) ;
         color: #FFF;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         text-transform: capitalize;
         .main-title {
-          font-size: 36px;
+          font-size: transSize(36) ;
         }
         .sub-title {
           color: #FFF;
-          font-size: 30px;
+          font-size: transSize(30) ;
         }
       }
       .item {
         display: flex;
         align-items: center;
-        margin-bottom: 26px;
+        margin-bottom: transSize(26) ;
         gap: 14px;
         color: #FCBC40;
-        font-size: 24px;
+        font-size: transSize(24) ;
         font-style: normal;
         font-weight: 700;
         img {
-          width: 32px;
+          width: transSize(32) ;
         }
       }
       .btn-wrapper {
         display: flex;
-        gap: 28px;
-        font-size: 24px;
+        gap: transSize(28) ;
+        font-size: transSize(24) ;
         .btn {
-          height: 32px;
-          line-height: 32px;
+          height: transSize(32) ;
+          line-height: transSize(32) ;
           flex: 1;
-          border-radius: 4px;
+          border-radius: transSize(4) ;
         }
         .btn1 {
           color: #14206C;
@@ -83,42 +85,42 @@ ul {
         .btn2 {
           color: white;
           background-color: transparent;
-          border: 1px solid #FCBC40;
+          border: transSize(1)  solid #FCBC40;
         }
       }
     }
     .img-wrapper {
       display: flex;
       align-items: flex-end;
-      margin-left: 20px;
+      margin-left: transSize(20) ;
       img {
-        margin-top: 60px;
-        width: 490px;
+        margin-top: transSize(60) ;
+        width: transSize(490) ;
       }
     }
   }
   .btn {
-    margin-top: 16px;
-    width: 158px;
+    margin-top: transSize(16) ;
+    width: transSize(158) ;
     color: #14206C;
     text-align: center;
-    font-size: 14px;
+    font-size: transSize(14) ;
     font-style: normal;
     font-weight: 700;
     line-height: 2.3;
-    border-radius: 4px;
+    border-radius: transSize(4) ;
     background-color: #fcbc40;
     cursor: pointer;
   }
   .block2{
     padding-left: 19.4%;
     padding-right: 19.4%;
-    margin-top: 39px;
-    margin-bottom: 39px;
+    margin-top: transSize(39) ;
+    margin-bottom: transSize(39) ;
     .title {
       color: #14206C;
       text-align: center;
-      font-size: 24px;
+      font-size: transSize(24) ;
       font-style: normal;
       font-weight: 700;
       line-height: 1.91; /* 191.667% */
@@ -129,24 +131,24 @@ ul {
     .img-wrapper {
       display: flex;
       justify-content: space-between;
-      padding-top: 3px;
+      padding-top: transSize(3) ;
       img {
         flex: 372;
-        width: 377px;
+        width: transSize(377) ;
       }
     }
     .table-area {
-      font-size: 14px;
+      font-size: transSize(14) ;
       .tb-header {
         display: flex;
         justify-content: space-between;
-        gap: 4px;
+        gap: transSize(4) ;
         width: 100%;
 
         font-weight: 700;
         color: #414042;
         .td-item {
-          padding: 11px 0;
+          padding: transSize(11)  0;
           text-align: center;
           background-color: #e8e8e8;
         }
@@ -159,9 +161,9 @@ ul {
         .tr-item {
           display: flex;
           justify-content: space-between;
-          gap: 4px;
+          gap: transSize(4) ;
           .td-item {
-            padding: 11px 0;
+            padding: transSize(11)  0;
             text-align: center;
             color: #414042;
             .text-area {
@@ -204,22 +206,22 @@ ul {
   .block3{
     display: flex;
     align-items: center;
-    margin-bottom: 43px;
-    padding: 18px 19.4%;
+    margin-bottom: transSize(43) ;
+    padding: transSize(18)  19.4%;
     background: #F0F0F0;
     .block-left {
       width: 49.8%;
       .title {
-        margin-bottom: 15px;
+        margin-bottom: transSize(15) ;
         color: #14206C;
-        font-size: 24px;
+        font-size: transSize(24) ;
         font-style: normal;
         font-weight: 700;
       }
       ul {
-        padding-left: 15px;
+        padding-left: transSize(15) ;
         color: #414042;
-        font-size: 14px;
+        font-size: transSize(14) ;
         .sub-ul {
           li {
             list-style-type: none;
@@ -230,9 +232,9 @@ ul {
     .block-right {
       display: flex;
       align-items: flex-end;
-      margin-left: 75px;
+      margin-left: transSize(75) ;
       img {
-        width: 199px;
+        width: transSize(199) ;
       }
     }
   }
@@ -243,14 +245,14 @@ ul {
     .block-left {
       width: 50%;
       img {
-        width: 312px;
+        width: transSize(312) ;
       }
     }
     .block-right {
       .title {
-        margin-bottom: 11px;
+        margin-bottom: transSize(11) ;
         color: #14206C;
-        font-size: 24px;
+        font-size: transSize(24) ;
         font-style: normal;
         font-weight: 700;
       }
@@ -263,12 +265,12 @@ ul {
     }
   }
   .tab-block{
-    margin-top: 44px;
-    margin-bottom: 54px;
+    margin-top: transSize(44) ;
+    margin-bottom: transSize(54) ;
     .title {
-      margin-bottom: 11px;
+      margin-bottom: transSize(11) ;
       color: #14206C;
-      font-size: 24px;
+      font-size: transSize(24) ;
       text-align: center;
       font-style: normal;
       font-weight: 700;
@@ -276,21 +278,21 @@ ul {
     .tab-area {
       display: flex;
       justify-content: center;
-      border-bottom: 1px solid #C5C5C5;
+      border-bottom: transSize(1)  solid #C5C5C5;
       .tab-item {
-        padding: 16px 30px;
+        padding: transSize(16)  transSize(30) ;
         color: #636363;
-        font-size: 16px;
+        font-size: transSize(16) ;
         font-weight: 600;
         cursor: pointer;
       }
       .active {
         color: #14206C;
-        border-bottom: 2px solid #ECB62D;
+        border-bottom: transSize(2)  solid #ECB62D;
       }
     }
     .tab-content {
-      padding-top: 20px;
+      padding-top: transSize(20) ;
       .tab-1 {
         width: 100%;
       }
@@ -298,16 +300,16 @@ ul {
         margin: 0 auto;
         padding: 0 19.4%;
         width: 100%;
-        font-size: 14px;
+        font-size: transSize(14) ;
         border-collapse: separate;
-        border-spacing: 1px;
+        border-spacing: transSize(1) ;
         thead {
           color: #14206C;
           background-color: #a2daf5;
           th {
-            font-size: 14px;
+            font-size: transSize(14) ;
             white-space: nowrap;
-            padding: 5px;
+            padding: transSize(5) ;
             text-align: left;
             &:nth-of-type(1) {
               text-align: center;
@@ -319,7 +321,7 @@ ul {
         }
         tbody {
           td {
-            padding: 0 0 0 2px;
+            padding: 0 0 0 transSize(2) ;
           }
           tr:nth-of-type(2n) {
             background-color: #fcfcfc;
@@ -330,14 +332,14 @@ ul {
         }
       }
       .tb2 {
-        margin-top: 40px;
+        margin-top: transSize(40) ;
         tbody {
           tr {
             td {
-              font-size: 14px;
+              font-size: transSize(14) ;
             }
             td:nth-of-type(1) {
-              padding: 5px 0;
+              padding: transSize(5)  0;
               color: #14206C;
               font-weight: 700;
               writing-mode: vertical-lr;
@@ -359,48 +361,48 @@ ul {
     }
   }
   .banner-area {
-    padding: 0 19.4% 44px 19.4%;
+    padding: 0 19.4% transSize(44)  19.4%;
     .sub-title {
       text-align: center;
-      margin-bottom: 24px;
+      margin-bottom: transSize(24) ;
     }
     .banner-wrapper {
       display: flex;
       justify-content: space-between;
-      gap: 20px;
+      gap: transSize(20) ;
       .banner-item {
-        padding: 19px 9px;
+        padding: transSize(19)  transSize(9) ;
         flex: 1;
-        border-radius: 10px;
+        border-radius: transSize(10) ;
         background: #FFF;
-        box-shadow: 3px 3px 10px 6px #00000026;
+        box-shadow: transSize(3)  transSize(3)  transSize(10)  transSize(6)  #00000026;
         img {
           display: block;
-          margin-bottom: 21px;
+          margin-bottom: transSize(21) ;
           width: 100%;
         }
         .banner-desc{
           display: block;
-          font-size: 14px;
+          font-size: transSize(14) ;
           color: #14206C;
           text-decoration: none;
           font-weight: 700;
-          height: 45px;
-          border-bottom: 1px solid #465052;
+          height: transSize(45) ;
+          border-bottom: transSize(1)  solid #465052;
         }
         .banner-href {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin-top: 11px;
+          margin-top: transSize(11) ;
           color: #FCBC40;
-          font-size: 14px;
+          font-size: transSize(14);
           font-style: normal;
           font-weight: 700;
           cursor: pointer;
           .href-icon {
             margin-bottom: 0;
-            width: 25px;
+            width: transSize(25) ;
           }
         }
         .btn {
@@ -412,35 +414,35 @@ ul {
   }
   .QA-item {
     .sub-title {
-      margin-bottom: 25px;
+      margin-bottom: transSize(25) ;
       text-align: center;
     }
     .list-wrapper {
-      padding: 0 19.4% 44px 19.4%;
+      padding: 0 19.4% transSize(44)  19.4%;
       .list-item {
         position: relative;
-        padding-left: 25px;
-        margin-bottom: 25px;
+        padding-left: transSize(25) ;
+        margin-bottom: transSize(25x) ;
         &:nth-last-of-type(1) {
           margin-bottom: 0;
         }
         .list-title {
-          margin-bottom: 12px;
-          font-size: 14px;
+          margin-bottom: transSize(12) ;
+          font-size: transSize(14) ;
           color: #14206C;
           font-weight: bold;
         }
         .list-ctx {
-          font-size: 14px;
+          font-size: transSize(14) ;
           color: #414042;
         }
         &:after {
           position: absolute;
           left: 0;
-          top: -1px;
+          top: transSize(-1) ;
           content: '•';
           color: #4A4459;
-          font-size: 18px;
+          font-size: transSize(18) ;
           font-weight: bold;
         }
       }
@@ -451,11 +453,11 @@ ul {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 27px 19.4% 44px 19.4%;
+    padding: transSize(27)  19.4% transSize(44)  19.4%;
     background-color: #102b5b;
     .title {
-      margin-bottom: 8px;
-      font-size: 26px;
+      margin-bottom: transSize(8) ;
+      font-size: transSize(26) ;
       font-weight: 600;
       line-height: 1.91;
       text-align: center;
@@ -464,8 +466,8 @@ ul {
     .sub-title {
       position: relative;
       width: 100%;
-      font-size: 18px;
-      margin-bottom: 20px;
+      font-size: transSize(18) ;
+      margin-bottom: transSize(20) ;
       color: white;
       text-align: center;
       &:before {
@@ -473,7 +475,7 @@ ul {
         left: 0;
         top: 50%;
         width: 30%;
-        height: 2px;
+        height: transSize(2) ;
         content: '';
         background-color: white;
         transform: translateY(-50%);
@@ -484,17 +486,17 @@ ul {
         top: 50%;
         content: '';
         width: 30%;
-        height: 2px;
+        height: transSize(2) ;
         background-color: white;
         transform: translateY(-50%);
       }
     }
     .footer-ctx {
-      margin-bottom: 44px;
-      font-size: 16px;
+      margin-bottom: transSize(44) ;
+      font-size: transSize(16) ;
       line-height: 1.51;
       p {
-        margin-bottom: 20px;
+        margin-bottom: transSize(20) ;
         color: white;
       }
       .em {
@@ -505,30 +507,30 @@ ul {
     .title-desc {
       color: #FFF;
       text-align: center;
-      font-size: 16px;
+      font-size: transSize(16) ;
       font-style: normal;
       font-weight: 400;
     }
     .require-tip {
       color: white;
-      font-size: 12px;
+      font-size: transSize(12) ;
     }
     .footer-form {
       width: 100%;
       .input-area {
         display: flex;
         justify-content: space-between;
-        gap: 57px;
+        gap: transSize(57) ;
         width: 100%;
         .item {
           flex: 1;
           color: white;
-          font-size: 14px;
+          font-size: transSize(14) ;
           input {
-            margin-top: 5px;
+            margin-top: transSize(5) ;
             width: 100%;
             line-height: 1.4;
-            font-size: 14px;
+            font-size: transSize(14) ;
             outline: none;
             border: none;
           }
@@ -537,19 +539,19 @@ ul {
       .submit-area {
         display: flex;
         justify-content: space-between;
-        gap: 57px;
-        margin-top: 25px;
+        gap: transSize(57) ;
+        margin-top: transSize(25) ;
         .item {
           flex: 1;
         }
         input {
           color: #14206C;
           text-align: center;
-          font-size: 14px;
+          font-size: transSize(14);
           font-style: normal;
           font-weight: 700;
           line-height: 1.9;
-          border-radius: 4px;
+          border-radius: transSize(4) ;
           background-color: #fcbc40;
           cursor: pointer;
           outline: none;
@@ -563,15 +565,15 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
-    gap: 22px;
+    padding: transSize(24)  0;
+    gap: transSize(22) ;
     background: rgba(217, 217, 217, 0.50);
     color: rgba(70, 80, 82, 0.50);
-    font-size: 12px;
+    font-size: transSize(12) ;
     font-style: normal;
     font-weight: 700;
     img {
-      width: 123px
+      width: transSize(123)
     }
   }
 
