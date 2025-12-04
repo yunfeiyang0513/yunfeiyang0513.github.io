@@ -4,7 +4,7 @@
   height: 100%;
   background-color: #333333;
   ul {
-    padding-left: .15rem;
+    padding-left: 15px;
   }
   .banner {
     display: flex;
@@ -20,12 +20,12 @@
       align-items: center;
       width: 100%;
       .page-title {
-        font-size: .4rem;
+        font-size: 40px;
         font-weight: 700;
         color: white;
       }
       img {
-        width: 2.14rem;
+        width: 214px;
       }
 
     }
@@ -35,7 +35,7 @@
     margin: 0 auto;
     background-color: white;
     .sub-title {
-      font-size: .24rem;
+      font-size: 24px;
       color: #14206C;
       font-weight: 700;
       white-space: nowrap;
@@ -47,25 +47,25 @@
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
-      padding: .22rem 2.81rem .26rem 2.72rem;
-      gap: .7rem;
+      padding: 22px 19.4% 26px 19.4%;
+      gap: 70px;
       background-color: white;
       color: #414042;
       img {
-        width: 3.17rem;
+        width: 317px;
       }
       .w391 {
-        width: 3.91rem;
+        width: 391px;
       }
       .block-left {
         display: flex;
         flex-direction: column;
         flex: 1;
         .desc-name {
-          margin-bottom: .16rem;
+          margin-bottom: 16px;
         }
         .sub-title {
-          margin-bottom: .16rem;
+          margin-bottom: 16px;
         }
 
       }
@@ -75,19 +75,19 @@
         width: 52.2%;
         text-align: left;
         .sub-title {
-          margin-bottom: .23rem;
+          margin-bottom: 23px;
         }
       }
       .desc-t {
-        font-size: .14rem;
-        line-height: .22rem;
+        font-size: 14px;
+        line-height: 22px;
       }
       .desc-info {
         color: #414042;
-        font-size: .14rem;
-        line-height: .22rem;
+        font-size: 14px;
+        line-height: 22px;
         .b1-list-item {
-          margin-bottom: .2rem;
+          margin-bottom: 20px;
           &:nth-last-of-type(1) {
             margin-bottom: 0;
           }
@@ -101,24 +101,24 @@
       align-items: center;
     }
     .table-wrapper {
-      margin-bottom: .44rem;
-      padding: .44rem 2.81rem 0 2.72rem;
+      margin-bottom: 44px;
+      padding: 44px 19.4% 0 19.4%;
       .sub-title {
-        margin-bottom: .12rem;
-        padding-bottom: .05rem;
+        margin-bottom: 12px;
+        padding-bottom: 5px;
         width: fit-content;
-        border-bottom: .03rem solid #FCBC40;
+        border-bottom: 3px solid #FCBC40;
       }
       .table-area {
         display: flex;
         .tb-left {
-          width: 1.5rem;
+          width: 150px;
           background-color: #A2DAF6;
           .td-item {
-            padding-left: .05rem;
-            font-size: .14rem;
-            line-height: .47rem;
-            height: .47rem;
+            padding-left: 5px;
+            font-size: 14px;
+            line-height: 47px;
+            height: 47px;
             font-weight: bold;
             color: #14206C;
           }
@@ -127,10 +127,9 @@
           flex:  1;
           .tb-head {
             display: flex;
-            height: .47rem;
-            line-height: .47rem;
+            line-height: 3.2;
             color: #14206C;
-            font-size: .14rem;
+            font-size: 14px;
             font-weight: bold;
             background-color: #A2DAF6;
             .td-item {
@@ -141,8 +140,8 @@
           .tb-body {
             .row-item {
               display: flex;
-              height: .47rem;
-              font-size: .14rem;
+              line-height: 3.2;
+              font-size: 14px;
               color: #414042;
               background-color: #fcfcfc;
               .td-item {
@@ -161,29 +160,29 @@
       }
     }
     .banner-area {
-      padding: 0 2.81rem .44rem 2.72rem;
+      padding: 0 19.4% 44px 19.4%;
       .sub-title {
         text-align: center;
-        margin-bottom: .24rem;
+        margin-bottom: 24px;
       }
       .banner-wrapper {
         display: flex;
         justify-content: space-between;
-        gap: .2rem;
+        gap: 20px;
         .banner-item {
-          padding: .19rem .09rem;
+          padding: 19px 9px;
           flex: 1;
-          border-radius: .1rem;
+          border-radius: 10px;
           background: #FFF;
-          box-shadow: .03rem .03rem .1rem .06rem #00000026;
+          box-shadow: 3px 3px 10px 6px #00000026;
           img {
             display: block;
-            margin-bottom: .21rem;
+            margin-bottom: 21px;
             width: 100%;
           }
           a {
             display: block;
-            font-size: .14rem;
+            font-size: 14px;
             color: #14206C;
             text-decoration: none;
             font-weight: 700;
@@ -193,35 +192,35 @@
     }
     .QA-item {
       .sub-title {
-        margin-bottom: .25rem;
+        margin-bottom: 25px;
         text-align: center;
       }
       .list-wrapper {
-        padding: 0 2.81rem .44rem 2.72rem;
+        padding: 0 19.4% 44px 19.4%;
         .list-item {
           position: relative;
-          padding-left: .25rem;
-          margin-bottom: .25rem;
+          padding-left: 25px;
+          margin-bottom: 25px;
           &:nth-last-of-type(1) {
             margin-bottom: 0;
           }
           .list-title {
-            margin-bottom: .12rem;
-            font-size: .14rem;
+            margin-bottom: 12px;
+            font-size: 14px;
             color: #14206C;
             font-weight: bold;
           }
           .list-ctx {
-            font-size: .14rem;
+            font-size: 14px;
             color: #414042;
           }
           &:after {
             position: absolute;
             left: 0;
-            top: -0.01rem;
+            top: -1px;
             content: '•';
             color: #4A4459;
-            font-size: .18rem;
+            font-size: 18px;
             font-weight: bold;
           }
         }
@@ -234,23 +233,22 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 0 2.81rem 0 2.72rem;
-    aspect-ratio: 2880 / 806;
+    padding: 27px 19.4% 44px 19.4%;
     background-size: 100% 100%;
     background-image: url('../assets/images/footer.png');
       .title {
-        margin-bottom: .08rem;
-        font-size: .26rem;
+        margin-bottom: 8px;
+        font-size: 24px;
         font-weight: 600;
-        line-height: .5rem;
+        line-height: 3;
         text-align: center;
         color: white;
       }
       .sub-title {
         position: relative;
         width: 100%;
-        font-size: .18rem;
-        margin-bottom: .2rem;
+        font-size: 18px;
+        margin-bottom: 20px;
         color: white;
         text-align: center;
         &:before {
@@ -258,7 +256,7 @@
           left: 0;
           top: 50%;
           width: 30%;
-          height: 0.02rem;
+          height: 2px;
           content: '';
           background-color: white;
           transform: translateY(-50%);
@@ -269,16 +267,16 @@
           top: 50%;
           content: '';
           width: 30%;
-          height: 0.02rem;
+          height: 2px;
           background-color: white;
           transform: translateY(-50%);
         }
       }
     .footer-ctx {
-      font-size: .16rem;
-      line-height: .25rem;
+      font-size: 16px;
+      line-height: 1.5;
       p {
-        margin-bottom: .2rem;
+        margin-bottom: 20px;
         color: white;
       }
       .em {

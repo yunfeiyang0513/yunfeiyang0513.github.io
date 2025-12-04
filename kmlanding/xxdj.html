@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./css/global.css"/>
     <link rel="stylesheet" href="./css/xxdj.css"/>
     <link rel="stylesheet" href="./css/dialog.css"/>
-    <script src="./js/adapt.js"></script>
 </head>
 <body>
 <div id="app">
@@ -60,7 +59,7 @@
             <div class="item">
                 <div class="item-name">技術優勢</div>
                 <div class="desc-item">高精度，重複定位精度可做到0.1um</div>
-                <div class="desc-item" style="line-height: 1.6">大推力，有鐵芯線性馬達最大持續推力9620N，<br>峰值推力12500N</div>
+                <div class="desc-item" style="line-height: 1.6">大推力，有鐵芯線性馬達最大持續推力9620N，<br/>峰值推力12500N</div>
                 <div class="desc-item" style="line-height: 1.1">速度快，快至10m/s，實際加速度可以達到10G</div>
             </div>
         </div>
@@ -168,15 +167,15 @@
         <div class="sub-title2">助力新能源的變革，為綠色出行提供持續動力</div>
         <div class="content">
         <div class="item-left">
-            <img src="./assets/images/xxdj/img5.png" alt="" style="width: 3.14rem">
+            <img src="./assets/images/xxdj/img5.png" alt="" style="width: 314px">
             <p class="title">相關產品</p>
             <div class="img-wrapper">
                 <div class="img-item">
-                    <img src="./assets/images/xxdj/img6.png" alt="" style="width: 1.4rem">
+                    <img src="./assets/images/xxdj/img6.png" alt="" style="width: 140px">
                     <p class="img-name">DDL線性馬達</p>
                 </div>
                 <div class="img-item">
-                    <img src="./assets/images/xxdj/img8.png" alt="" style="width: .93rem">
+                    <img src="./assets/images/xxdj/img8.png" alt="" style="width: 93px">
                     <p class="img-name">AKD驅動器</p>
                 </div>
             </div>
@@ -208,15 +207,15 @@
         <div class="sub-title">協助太陽能電池絲網印刷循環時間縮短至一秒內！</div>
         <div class="content">
             <div class="item-left">
-                <img src="./assets/images/xxdj/img7.png" alt="" style="width: 3rem">
-                <p class="title" style="margin-top: .34rem">相關產品</p>
+                <img src="./assets/images/xxdj/img7.png" alt="" style="width: 300px">
+                <p class="title" style="margin-top: 34px">相關產品</p>
                 <div class="img-wrapper">
                     <div class="img-item">
-                        <img src="./assets/images/xxdj/img6.png" alt="" style="width: .86rem">
+                        <img src="./assets/images/xxdj/img6.png" alt="" style="width: 86px">
                         <p class="img-name">DDL線性馬達</p>
                     </div>
                     <div class="img-item">
-                        <img src="./assets/images/xxdj/img10.png" alt="" style="width: .86rem">
+                        <img src="./assets/images/xxdj/img10.png" alt="" style="width: 86px">
                         <p class="img-name">KBM線性馬達</p>
                     </div>
                 </div>
@@ -273,7 +272,9 @@
                     型錄下載
                 </div>
             </div>
-            <video src="./assets/video/video.mp4" poster="./assets/video/bg.png" controls></video>
+            <div class="video-wrapper">
+                <video src="./assets/video/video.mp4" poster="./assets/video/bg.png" controls></video>
+            </div>
         </div>
     </div>
     <footer class="footer">
@@ -412,7 +413,6 @@
                 }
             })
         })
-        initRem(1440)
         const tabItem = [...document.getElementsByClassName('tab-item')];
         const tabCtx = [...document.getElementsByClassName('tab-content')[0].getElementsByTagName('img')];
         tabItem.forEach(((el, index) => {

@@ -13,7 +13,7 @@
   display: flex;
   width: 74.5%;
   height: 78%;
-  border-radius: 0.02rem;
+  border-radius: 2px;
   transform: translate(-50%, -50%);
 }
 .dialog-modal .dialog-wrapper .left {
@@ -22,12 +22,12 @@
   justify-content: center;
   padding: 0.37rem 0.72rem 0.42rem 0.77rem;
   width: 68.5%;
-  border-radius: 0.04rem 0 0 0.02rem;
+  border-radius: 4px 0 0 2px;
   background-color: #fff;
 }
 .dialog-modal .dialog-wrapper .left .title {
   color: #14206C;
-  font-size: 0.2rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 0.46rem;
