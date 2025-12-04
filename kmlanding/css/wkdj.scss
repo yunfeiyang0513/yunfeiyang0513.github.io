@@ -202,6 +202,9 @@ ul {
     padding: 0 19.4%;
     .block-left {
       width: 50%;
+      img {
+        width: transSize(312);
+      }
     }
     .block-right {
       .title {

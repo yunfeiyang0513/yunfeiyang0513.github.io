@@ -191,6 +191,9 @@ ul {
 #app .block4 .block-left {
   width: 50%;
 }
+#app .block4 .block-left img {
+  width: calc(var(--scale) * 312px);
+}
 #app .block4 .block-right .title {
   margin-bottom: calc(var(--scale) * 11px);
   color: #14206C;

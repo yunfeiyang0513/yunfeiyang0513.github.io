@@ -440,7 +440,7 @@ ul {
   margin-bottom: calc(var(--scale) * 8px);
   font-size: calc(var(--scale) * 26px);
   font-weight: 600;
-  line-height: 50px;
+  line-height: calc(var(--scale) * 50px);
   text-align: center;
   color: white;
 }
