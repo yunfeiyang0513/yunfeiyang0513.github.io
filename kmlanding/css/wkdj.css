@@ -44,7 +44,6 @@ ul {
   width: 46.7%;
 }
 #app .block1 .block-left img {
-  width: 100%;
   display: block;
 }
 #app .block1 .block-right {
@@ -185,14 +184,11 @@ ul {
 }
 #app .block4 {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   padding: 0 19.4%;
 }
 #app .block4 .block-left {
   width: 50%;
-}
-#app .block4 .block-left img {
-  width: 312px;
 }
 #app .block4 .block-right .title {
   margin-bottom: 11px;
