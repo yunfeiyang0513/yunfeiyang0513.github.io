@@ -54,7 +54,7 @@
 .dialog-modal .dialog-wrapper .left .input-item label {
   display: block;
   color: #999;
-  font-size: calc(var(--scale) * 6px);
+  font-size: calc(var(--scale) * 16px);
   font-style: normal;
   font-weight: 400;
   line-height: 200%;
