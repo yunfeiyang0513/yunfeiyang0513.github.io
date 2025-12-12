@@ -183,6 +183,7 @@
 #app .content .banner-area .banner-wrapper .banner-item a {
   display: block;
   font-size: calc(var(--scale) * 14px);
+  line-height: 1.6;
   color: #14206C;
   text-decoration: none;
   font-weight: 700;
@@ -211,6 +212,7 @@
 #app .content .QA-item .list-wrapper .list-item .list-ctx {
   font-size: calc(var(--scale) * 14px);
   color: #414042;
+  line-height: 1.8;
 }
 #app .content .QA-item .list-wrapper .list-item:after {
   position: absolute;

@@ -1,0 +1,3 @@
+@function transSize($n) {
+  @return calc(var(--scale) * #{$n}px);
+}
