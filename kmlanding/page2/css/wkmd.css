@@ -392,7 +392,7 @@ ul {
   background-color: transparent;
 }
 #app .QA-item .sub-title {
-  margin-bottom: calc(var(--scale) * 25px);
+  margin-bottom: calc(var(--scale) * 13px);
   text-align: center;
 }
 #app .QA-item .list-wrapper {
@@ -407,6 +407,7 @@ ul {
   margin-bottom: 0;
 }
 #app .QA-item .list-wrapper .list-item .list-title {
+  margin-top: calc(var(--scale) * 12px);
   margin-bottom: calc(var(--scale) * 12px);
   font-size: calc(var(--scale) * 14px);
   color: #14206C;
@@ -414,6 +415,7 @@ ul {
 }
 #app .QA-item .list-wrapper .list-item .list-ctx {
   font-size: calc(var(--scale) * 14px);
+  line-height: 1.5;
   color: #414042;
 }
 #app .QA-item .list-wrapper .list-item:after {

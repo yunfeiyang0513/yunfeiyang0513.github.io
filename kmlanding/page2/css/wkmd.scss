@@ -414,7 +414,7 @@ ul {
   }
   .QA-item {
     .sub-title {
-      margin-bottom: transSize(25) ;
+      margin-bottom: transSize(13) ;
       text-align: center;
     }
     .list-wrapper {
@@ -427,6 +427,7 @@ ul {
           margin-bottom: 0;
         }
         .list-title {
+          margin-top: transSize(12) ;
           margin-bottom: transSize(12) ;
           font-size: transSize(14) ;
           color: #14206C;
@@ -434,6 +435,7 @@ ul {
         }
         .list-ctx {
           font-size: transSize(14) ;
+          line-height: 1.5;
           color: #414042;
         }
         &:after {

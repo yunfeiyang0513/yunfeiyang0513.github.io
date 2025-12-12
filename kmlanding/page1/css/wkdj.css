@@ -292,6 +292,7 @@ ul {
 }
 #app .banner-area .sub-title {
   text-align: center;
+  font-size: calc(var(--scale) * 24px);
   margin-bottom: calc(var(--scale) * 24px);
 }
 #app .banner-area .banner-wrapper {
@@ -319,6 +320,7 @@ ul {
   font-weight: 700;
 }
 #app .QA-item .sub-title {
+  font-size: calc(var(--scale) * 24px);
   margin-bottom: calc(var(--scale) * 25px);
   text-align: center;
 }
