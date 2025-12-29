@@ -286,7 +286,8 @@ ul li {
   font-weight: 700;
 }
 #app .block6 {
-  display: none;
+  display: flex;
+  flex-direction: column;
   margin-left: calc(var(--scale) * 367px);
   margin-right: calc(var(--scale) * 331px);
   padding-left: calc(var(--scale) * 32px);

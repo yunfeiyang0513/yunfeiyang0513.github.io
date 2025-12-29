@@ -299,7 +299,8 @@ ul {
     }
   }
   .block6 {
-    display: none;
+    display: flex;
+    flex-direction: column;
     margin-left: transSize(367);
     margin-right: transSize(331);
     padding-left: transSize(32);
