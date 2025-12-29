@@ -298,7 +298,9 @@ button {
   display: flex;
   flex-direction: column;
   padding-left: calc(var(--scale) * 331px);
-  paddind-right: calc(var(--scale) * 331px);
+  padding-right: calc(var(--scale) * 331px);
+  padding-top: calc(var(--scale) * 50px);
+  padding-bottom: calc(var(--scale) * 50px);
   background: #F9FAFB;
 }
 #app .block6 .title {
@@ -367,7 +369,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: calc(var(--scale) * 52px);
   width: 100%;
   padding: calc(var(--scale) * 34px) calc(var(--scale) * 363px) calc(var(--scale) * 34px) calc(var(--scale) * 363px);
   background-color: #102b5b;

@@ -310,7 +310,9 @@ button {
     display: flex;
     flex-direction: column;
     padding-left: transSize(331);
-    paddind-right: transSize(331);
+    padding-right: transSize(331);
+    padding-top: transSize(50);
+    padding-bottom: transSize(50);
     background: #F9FAFB;
     .title {
       margin-bottom: transSize(15);
@@ -380,7 +382,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: transSize(52);
     width: 100%;
     padding: transSize(34)  transSize(363) transSize(34) transSize(363);
     background-color: #102b5b;
