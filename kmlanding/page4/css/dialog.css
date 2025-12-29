@@ -12,7 +12,6 @@
   left: 50%;
   display: flex;
   width: calc(var(--scale) * 1073px);
-  height: calc(var(--scale) * 493px);
   border-radius: calc(var(--scale) * 2px);
   transform: translate(-50%, -50%);
 }
@@ -63,7 +62,7 @@
 .dialog-modal .dialog-wrapper .left .input-item input {
   width: 100%;
   height: calc(var(--scale) * 28px);
-  font-size: calc(var(--scale) * 14px);
+  font-size: calc(var(--scale) * 16px);
   border: calc(var(--scale) * 1px) solid #E0E0E2;
 }
 .dialog-modal .dialog-wrapper .left .input-item .sub-btn {

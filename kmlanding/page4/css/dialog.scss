@@ -12,7 +12,6 @@
     left: 50%;
     display: flex;
     width: transSize(1073);
-    height: transSize(493);
     border-radius: transSize(2);
     transform: translate(-50%, -50%);
     .left {
@@ -60,7 +59,7 @@
         input {
           width: 100%;
           height: transSize(28) ;
-          font-size: transSize(14) ;
+          font-size: transSize(16) ;
           border: transSize(1)  solid #E0E0E2;;
         }
         .sub-btn {

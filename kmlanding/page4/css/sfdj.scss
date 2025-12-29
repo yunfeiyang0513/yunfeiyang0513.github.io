@@ -3,7 +3,7 @@ ul {
   padding-left: transSize(15) ;
   font-size: transSize(16);
   color: #4A5565;
-  li {
+  .list-item {
     margin-bottom: transSize(16) ;
     &::marker {
       color: #005EB8;
@@ -255,6 +255,9 @@ button {
       img {
         width: transSize(380);
       }
+      .img42 {
+        width: transSize(500);
+      }
     }
     .right {
       .title {
@@ -274,6 +277,39 @@ button {
       }
     }
   }
+  .block7 {
+    display: flex;
+    align-items: center;
+    gap: transSize(18);
+    padding: 0 transSize(363);
+    margin-bottom: transSize(32) ;
+    .left {
+      img {
+        width: transSize(380);
+      }
+      .img42 {
+        width: transSize(500);
+      }
+    }
+    .right {
+      .title {
+        margin-bottom: transSize(29);
+        font-size: transSize(24);
+        font-weight: 700;
+        color: #14206C;
+      }
+      .desc  {
+        margin-bottom: transSize(16);
+        font-size: transSize(16);
+        color: #4A5565;
+        line-height: 1.4;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
   .block5 {
 
     display: flex;

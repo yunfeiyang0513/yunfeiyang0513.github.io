@@ -3,10 +3,10 @@ ul {
   font-size: calc(var(--scale) * 16px);
   color: #4A5565;
 }
-ul li {
+ul .list-item {
   margin-bottom: calc(var(--scale) * 16px);
 }
-ul li::marker {
+ul .list-item::marker {
   color: #005EB8;
 }
 
@@ -252,6 +252,9 @@ button {
 #app .block4 .left img {
   width: calc(var(--scale) * 380px);
 }
+#app .block4 .left .img42 {
+  width: calc(var(--scale) * 500px);
+}
 #app .block4 .right .title {
   margin-bottom: calc(var(--scale) * 29px);
   font-size: calc(var(--scale) * 24px);
@@ -265,6 +268,34 @@ button {
   line-height: 1.4;
 }
 #app .block4 .right .desc span {
+  font-weight: 700;
+}
+#app .block7 {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--scale) * 18px);
+  padding: 0 calc(var(--scale) * 363px);
+  margin-bottom: calc(var(--scale) * 32px);
+}
+#app .block7 .left img {
+  width: calc(var(--scale) * 380px);
+}
+#app .block7 .left .img42 {
+  width: calc(var(--scale) * 500px);
+}
+#app .block7 .right .title {
+  margin-bottom: calc(var(--scale) * 29px);
+  font-size: calc(var(--scale) * 24px);
+  font-weight: 700;
+  color: #14206C;
+}
+#app .block7 .right .desc {
+  margin-bottom: calc(var(--scale) * 16px);
+  font-size: calc(var(--scale) * 16px);
+  color: #4A5565;
+  line-height: 1.4;
+}
+#app .block7 .right .desc span {
   font-weight: 700;
 }
 #app .block5 {
