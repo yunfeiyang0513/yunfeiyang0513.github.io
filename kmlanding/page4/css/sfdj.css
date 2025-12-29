@@ -441,8 +441,8 @@ ul li {
 #app .footer .footer-form .input-area .item input {
   margin-top: calc(var(--scale) * 5px);
   width: 100%;
-  height: calc(var(--scale) * 19px);
-  line-height: calc(var(--scale) * 19px);
+  height: calc(var(--scale) * 32px);
+  line-height: calc(var(--scale) * 32px);
   font-size: calc(var(--scale) * 14px);
   outline: none;
 }
@@ -461,7 +461,7 @@ ul li {
   font-size: calc(var(--scale) * 14px);
   font-style: normal;
   font-weight: 700;
-  line-height: calc(var(--scale) * 27px);
+  line-height: calc(var(--scale) * 32px);
   height: calc(var(--scale) * 32px);
   border-radius: calc(var(--scale) * 4px);
   background-color: #fcbc40;
