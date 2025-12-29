@@ -445,7 +445,7 @@ button {
 #app .footer .footer-form .input-area .item {
   flex: 1;
   color: white;
-  font-size: calc(var(--scale) * 14px);
+  font-size: calc(var(--scale) * 16px);
 }
 #app .footer .footer-form .input-area .item input {
   margin-top: calc(var(--scale) * 5px);
