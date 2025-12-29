@@ -31,7 +31,7 @@ ul li {
   flex-direction: column;
   font-size: calc(var(--scale) * 18px);
   font-weight: 400;
-  padding-left: calc(var(--scale) * 367px);
+  padding-left: calc(var(--scale) * 363px);
 }
 #app .page-header img {
   width: calc(var(--scale) * 180px);
@@ -40,7 +40,7 @@ ul li {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 29px) calc(var(--scale) * 367px);
+  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 29px) calc(var(--scale) * 363px);
   width: 100%;
   color: #FFF;
   font-size: calc(var(--scale) * 42px);
@@ -119,8 +119,8 @@ ul li {
   border: none;
 }
 #app .block2 {
-  margin-left: calc(var(--scale) * 331px);
-  margin-right: calc(var(--scale) * 331px);
+  margin-left: calc(var(--scale) * 363px);
+  margin-right: calc(var(--scale) * 363px);
   margin-bottom: calc(var(--scale) * 28px);
   padding-top: calc(var(--scale) * 23px);
   background: #FFF;
@@ -180,7 +180,7 @@ ul li {
 }
 #app .block3 {
   margin-bottom: calc(var(--scale) * 50px);
-  padding: calc(var(--scale) * 5px) calc(var(--scale) * 331px);
+  padding: calc(var(--scale) * 5px) calc(var(--scale) * 363px);
 }
 #app .block3 .title {
   margin-bottom: calc(var(--scale) * 28px);
@@ -237,7 +237,7 @@ ul li {
   display: flex;
   align-items: flex-end;
   gap: calc(var(--scale) * 138px);
-  padding: 0 calc(var(--scale) * 331px);
+  padding: 0 calc(var(--scale) * 363px);
   margin-bottom: calc(var(--scale) * 32px);
 }
 #app .block4 .left img {
@@ -262,7 +262,7 @@ ul li {
   display: flex;
   align-items: center;
   gap: calc(var(--scale) * 138px);
-  padding: calc(var(--scale) * 20px) calc(var(--scale) * 331px) calc(var(--scale) * 18px) calc(var(--scale) * 331px);
+  padding: calc(var(--scale) * 20px) calc(var(--scale) * 363px) calc(var(--scale) * 18px) calc(var(--scale) * 363px);
   margin-bottom: calc(var(--scale) * 22px);
   background: #F5F7FA;
 }
@@ -360,7 +360,7 @@ ul li {
   justify-content: center;
   margin-top: calc(var(--scale) * 52px);
   width: 100%;
-  padding: calc(var(--scale) * 34px) calc(var(--scale) * 331px) calc(var(--scale) * 34px) calc(var(--scale) * 331px);
+  padding: calc(var(--scale) * 34px) calc(var(--scale) * 363px) calc(var(--scale) * 34px) calc(var(--scale) * 363px);
   background-color: #102b5b;
 }
 #app .footer .title {
