@@ -443,7 +443,7 @@ ul li {
   width: 100%;
   height: calc(var(--scale) * 32px);
   line-height: calc(var(--scale) * 32px);
-  font-size: calc(var(--scale) * 14px);
+  font-size: calc(var(--scale) * 16px);
   outline: none;
 }
 #app .footer .footer-form .submit-area {
