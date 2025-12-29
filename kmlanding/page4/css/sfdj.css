@@ -455,7 +455,7 @@ ul li {
 #app .footer .footer-form .submit-area input {
   color: #14206C;
   text-align: center;
-  font-size: calc(var(--scale) * 14px);
+  font-size: calc(var(--scale) * 16px);
   font-style: normal;
   font-weight: 700;
   line-height: calc(var(--scale) * 32px);
