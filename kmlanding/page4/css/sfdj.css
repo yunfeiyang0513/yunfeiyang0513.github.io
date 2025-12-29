@@ -6,6 +6,9 @@ ul {
 ul li {
   margin-bottom: calc(var(--scale) * 16px);
 }
+ul li::marker {
+  color: #005EB8;
+}
 
 .error {
   margin-top: calc(var(--scale) * 5px);

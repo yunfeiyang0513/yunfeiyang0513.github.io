@@ -5,6 +5,9 @@ ul {
   color: #4A5565;
   li {
     margin-bottom: transSize(16) ;
+    &::marker {
+      color: #005EB8;
+    }
   }
 }
 .error {
