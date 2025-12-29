@@ -10,6 +10,10 @@ ul li::marker {
   color: #005EB8;
 }
 
+button {
+  font-family: kmfont;
+}
+
 .error {
   margin-top: calc(var(--scale) * 5px);
   font-size: calc(var(--scale) * 12px);
@@ -41,9 +45,8 @@ ul li::marker {
 }
 #app .banner {
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
-  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 29px) calc(var(--scale) * 363px);
+  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 34px) calc(var(--scale) * 363px);
   width: 100%;
   color: #FFF;
   font-size: calc(var(--scale) * 42px);
@@ -74,6 +77,9 @@ ul li::marker {
   font-size: calc(var(--scale) * 20px);
   font-style: normal;
   font-weight: 700;
+}
+#app .banner .ctx-area .item:nth-last-of-type(2) {
+  margin-bottom: calc(var(--scale) * 42px);
 }
 #app .banner .ctx-area .item img {
   width: calc(var(--scale) * 32px);
@@ -291,10 +297,8 @@ ul li::marker {
 #app .block6 {
   display: flex;
   flex-direction: column;
-  margin-left: calc(var(--scale) * 331px);
-  margin-right: calc(var(--scale) * 331px);
-  padding-left: calc(var(--scale) * 32px);
-  padding-right: calc(var(--scale) * 32px);
+  padding-left: calc(var(--scale) * 331px);
+  paddind-right: calc(var(--scale) * 331px);
   background: #F9FAFB;
 }
 #app .block6 .title {
@@ -335,11 +339,13 @@ ul li::marker {
   color: #14206C;
 }
 #app .block6 .block-context .item-sub-title {
+  margin-bottom: calc(var(--scale) * 3px);
   color: #005EB8;
   font-size: calc(var(--scale) * 16px);
+  line-height: 1.31;
 }
 #app .block6 .block-context .item-desc {
-  padding-bottom: calc(var(--scale) * 33px);
+  padding-bottom: calc(var(--scale) * 30px);
   line-height: 1.42;
   color: #4A5565;
   font-size: calc(var(--scale) * 14px);
@@ -425,7 +431,7 @@ ul li::marker {
 #app .footer .require-tip {
   margin-top: calc(var(--scale) * 15px);
   color: white;
-  font-size: calc(var(--scale) * 12px);
+  font-size: calc(var(--scale) * 16px);
 }
 #app .footer .footer-form {
   width: 100%;
