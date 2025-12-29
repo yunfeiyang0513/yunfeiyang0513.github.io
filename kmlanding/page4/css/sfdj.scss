@@ -83,12 +83,12 @@ button {
       }
       .btn-wrapper {
         display: flex;
-        gap: transSize(28) ;
+        gap: transSize(20) ;
         font-size: transSize(14) ;
         .btn {
           margin-top: 0;
+          width: transSize(152);
           line-height: 2.3;
-          flex: 1;
           border-radius: transSize(4) ;
         }
         .btn1 {

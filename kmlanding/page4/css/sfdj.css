@@ -86,13 +86,13 @@ button {
 }
 #app .banner .ctx-area .btn-wrapper {
   display: flex;
-  gap: calc(var(--scale) * 28px);
+  gap: calc(var(--scale) * 20px);
   font-size: calc(var(--scale) * 14px);
 }
 #app .banner .ctx-area .btn-wrapper .btn {
   margin-top: 0;
+  width: calc(var(--scale) * 152px);
   line-height: 2.3;
-  flex: 1;
   border-radius: calc(var(--scale) * 4px);
 }
 #app .banner .ctx-area .btn-wrapper .btn1 {
