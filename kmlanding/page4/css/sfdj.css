@@ -46,7 +46,7 @@ button {
 #app .banner {
   display: flex;
   justify-content: space-between;
-  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 34px) calc(var(--scale) * 363px);
+  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 24px) calc(var(--scale) * 363px);
   width: 100%;
   color: #FFF;
   font-size: calc(var(--scale) * 42px);
