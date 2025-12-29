@@ -262,7 +262,7 @@ ul li {
   display: flex;
   align-items: center;
   gap: calc(var(--scale) * 138px);
-  padding: calc(var(--scale) * 20px) calc(var(--scale) * 363px) calc(var(--scale) * 18px) calc(var(--scale) * 363px);
+  padding: calc(var(--scale) * 20px) calc(var(--scale) * 592px) calc(var(--scale) * 18px) calc(var(--scale) * 363px);
   margin-bottom: calc(var(--scale) * 22px);
   background: #F5F7FA;
 }
