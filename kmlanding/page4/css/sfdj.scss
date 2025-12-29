@@ -463,9 +463,6 @@ ul {
         justify-content: space-between;
         gap: transSize(57) ;
         margin-top: transSize(25) ;
-        .item {
-          flex: 1;
-        }
         input {
           color: #14206C;
           text-align: center;
@@ -477,6 +474,7 @@ ul {
           border-radius: transSize(4) ;
           background-color: #fcbc40;
           outline: none;
+          width: transSize(252);
           border: none ;
           cursor: pointer;
         }

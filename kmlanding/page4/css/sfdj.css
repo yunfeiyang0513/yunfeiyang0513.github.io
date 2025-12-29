@@ -452,9 +452,6 @@ ul li {
   gap: calc(var(--scale) * 57px);
   margin-top: calc(var(--scale) * 25px);
 }
-#app .footer .footer-form .submit-area .item {
-  flex: 1;
-}
 #app .footer .footer-form .submit-area input {
   color: #14206C;
   text-align: center;
@@ -466,6 +463,7 @@ ul li {
   border-radius: calc(var(--scale) * 4px);
   background-color: #fcbc40;
   outline: none;
+  width: calc(var(--scale) * 252px);
   border: none;
   cursor: pointer;
 }
