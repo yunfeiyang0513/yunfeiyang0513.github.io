@@ -119,8 +119,8 @@ ul {
     border: none;
   }
   .block2{
-    margin-left: 19.4%;
-    margin-right: 19.4%;
+    margin-left: transSize(331);
+    margin-right: transSize(331);
     margin-bottom: transSize(28) ;
     padding-top: transSize(23) ;
     background: #FFF;
@@ -182,7 +182,7 @@ ul {
   }
   .block3{
     margin-bottom: transSize(50) ;
-    padding: transSize(5)  19.4%;
+    padding: transSize(5)  transSize(331);
     .title {
       margin-bottom: transSize(28) ;
       color: #14206C;
@@ -241,7 +241,7 @@ ul {
     display: flex;
     align-items: flex-end;
     gap: transSize(138);
-    padding: 0 19.4%;
+    padding: 0 transSize(331);
     margin-bottom: transSize(32) ;
     .left {
       img {
@@ -271,7 +271,7 @@ ul {
     display: flex;
     align-items: center;
     gap: transSize(138);
-    padding: transSize(20) 19.4% transSize(18) 19.4%;
+    padding: transSize(20) transSize(331) transSize(18) transSize(331);
     margin-bottom: transSize(22) ;
     background: #F5F7FA;
     .right {
@@ -301,7 +301,7 @@ ul {
   .block6 {
     display: flex;
     flex-direction: column;
-    margin-left: transSize(367);
+    margin-left: transSize(331);
     margin-right: transSize(331);
     padding-left: transSize(32);
     padding-right: transSize(32);
@@ -374,7 +374,7 @@ ul {
     justify-content: center;
     margin-top: transSize(52);
     width: 100%;
-    padding: transSize(34)  19.4% transSize(34)  19.4%;
+    padding: transSize(34)  transSize(331) transSize(34) transSize(331);
     background-color: #102b5b;
     .title {
       margin-bottom: transSize(8) ;
