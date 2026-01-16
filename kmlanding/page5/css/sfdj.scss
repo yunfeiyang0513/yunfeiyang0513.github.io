@@ -37,7 +37,7 @@ button {
     font-weight: 400;
     padding-left:  transSize(459);
     img {
-      width: transSize(180) ;
+      width: transSize(217) ;
     }
   }
   .banner {
@@ -693,17 +693,24 @@ button {
   }
   .page-footer {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: transSize(24)  0;
+    padding: transSize(24)  transSize(459);
     gap: transSize(22);
     background: rgba(217, 217, 217, 0.50);
     color: rgba(70, 80, 82, 0.50);
-    font-size: transSize(12) ;
+    font-size: transSize(16) ;
     font-style: normal;
     font-weight: 500;
     img {
-      width: transSize(123)
+      width: transSize(196)
+    }
+    .address {
+      margin-left: transSize(51) ;
+      white-space: nowrap;
+    }
+    .com {
+      margin-left: transSize(46);
+      white-space: nowrap;
     }
   }
 

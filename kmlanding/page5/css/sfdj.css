@@ -41,7 +41,7 @@ button {
   padding-left: calc(var(--scale) * 459px);
 }
 #app .page-header img {
-  width: calc(var(--scale) * 180px);
+  width: calc(var(--scale) * 217px);
 }
 #app .banner {
   display: flex;
@@ -676,16 +676,23 @@ button {
 }
 #app .page-footer {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: calc(var(--scale) * 24px) 0;
+  padding: calc(var(--scale) * 24px) calc(var(--scale) * 459px);
   gap: calc(var(--scale) * 22px);
   background: rgba(217, 217, 217, 0.5);
   color: rgba(70, 80, 82, 0.5);
-  font-size: calc(var(--scale) * 12px);
+  font-size: calc(var(--scale) * 16px);
   font-style: normal;
   font-weight: 500;
 }
 #app .page-footer img {
-  width: calc(var(--scale) * 123px);
+  width: calc(var(--scale) * 196px);
+}
+#app .page-footer .address {
+  margin-left: calc(var(--scale) * 51px);
+  white-space: nowrap;
+}
+#app .page-footer .com {
+  margin-left: calc(var(--scale) * 46px);
+  white-space: nowrap;
 }
