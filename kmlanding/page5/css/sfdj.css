@@ -560,7 +560,6 @@ button {
   line-height: 1.7;
   color: #4A5565;
   font-size: calc(var(--scale) * 16px);
-  border-bottom: calc(var(--scale) * 1px) solid #E5E7EB;
 }
 #app .footer {
   display: flex;
