@@ -256,9 +256,10 @@ button {
     }
     .block-context1 {
       display: flex;
-      gap: transSize(59);
+      gap: transSize(57);
       padding-bottom: transSize(30);
       .item {
+        flex: 1;
         padding: transSize(24) transSize(33);
         border-radius: transSize(16);
         border: transSize(1) solid #E5E7EB;
@@ -535,7 +536,7 @@ button {
     }
     .block-context {
       display: flex;
-      gap: transSize(24);
+      gap: transSize(52);
       .item {
         display: flex;
         justify-content: center;

@@ -258,10 +258,11 @@ button {
 }
 #app .block2 .block-context1 {
   display: flex;
-  gap: calc(var(--scale) * 59px);
+  gap: calc(var(--scale) * 57px);
   padding-bottom: calc(var(--scale) * 30px);
 }
 #app .block2 .block-context1 .item {
+  flex: 1;
   padding: calc(var(--scale) * 24px) calc(var(--scale) * 33px);
   border-radius: calc(var(--scale) * 16px);
   border: calc(var(--scale) * 1px) solid #E5E7EB;
@@ -521,7 +522,7 @@ button {
 }
 #app .block6 .block-context {
   display: flex;
-  gap: calc(var(--scale) * 24px);
+  gap: calc(var(--scale) * 52px);
 }
 #app .block6 .block-context .item {
   display: flex;
