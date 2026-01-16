@@ -91,7 +91,8 @@ button {
 #app .banner .ctx-area .btn-wrapper .btn {
   margin-top: 0;
   width: calc(var(--scale) * 152px);
-  line-height: 2.3;
+  height: calc(var(--scale) * 52px);
+  line-height: calc(var(--scale) * 53px);
   border-radius: calc(var(--scale) * 4px);
 }
 #app .banner .ctx-area .btn-wrapper .btn1 {
@@ -132,6 +133,12 @@ button {
   justify-content: center;
   padding-left: calc(var(--scale) * 15px);
   margin-bottom: calc(var(--scale) * 17px);
+}
+#app .banner .img-wrapper .form-wrapper .input-item:nth-last-of-type(1) {
+  font-weight: 600;
+}
+#app .banner .img-wrapper .form-wrapper .input-item:nth-last-of-type(1):before {
+  display: none;
 }
 #app .banner .img-wrapper .form-wrapper .input-item:before {
   position: absolute;
@@ -560,7 +567,7 @@ button {
   text-align: center;
   font-size: calc(var(--scale) * 16px);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: calc(var(--scale) * 32px);
   height: calc(var(--scale) * 32px);
   border-radius: calc(var(--scale) * 4px);

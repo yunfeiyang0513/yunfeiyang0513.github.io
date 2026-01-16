@@ -87,7 +87,8 @@ button {
         .btn {
           margin-top: 0;
           width: transSize(152);
-          line-height: 2.3;
+          height: transSize(52);
+          line-height: transSize(53);
           border-radius: transSize(4) ;
         }
         .btn1 {
@@ -128,6 +129,12 @@ button {
           justify-content: center;
           padding-left: transSize(15);
           margin-bottom: transSize(17);
+          &:nth-last-of-type(1) {
+            font-weight: 600;
+            &:before {
+              display: none;
+            }
+          }
           &:before {
             position: absolute;
             content: "*";
@@ -575,7 +582,7 @@ button {
           text-align: center;
           font-size: transSize(16) ;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 600;
           line-height: transSize(32) ;
           height: transSize(32) ;
           border-radius: transSize(4) ;

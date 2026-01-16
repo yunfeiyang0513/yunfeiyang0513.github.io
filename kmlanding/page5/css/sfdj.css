@@ -45,7 +45,8 @@ button {
 }
 #app .banner {
   display: flex;
-  padding: calc(var(--scale) * 44px) calc(var(--scale) * 459px) calc(var(--scale) * 24px) calc(var(--scale) * 459px);
+  align-items: flex-end;
+  padding: calc(var(--scale) * 49px) calc(var(--scale) * 459px) calc(var(--scale) * 49px) calc(var(--scale) * 459px);
   width: 100%;
   color: #FFF;
   font-size: calc(var(--scale) * 42px);
@@ -91,7 +92,8 @@ button {
 #app .banner .ctx-area .btn-wrapper .btn {
   margin-top: 0;
   width: calc(var(--scale) * 180px);
-  line-height: 2.3;
+  height: calc(var(--scale) * 53px);
+  line-height: calc(var(--scale) * 53px);
   border-radius: calc(var(--scale) * 4px);
 }
 #app .banner .ctx-area .btn-wrapper .btn1 {
@@ -110,6 +112,7 @@ button {
   margin-left: calc(var(--scale) * 20px);
 }
 #app .banner .img-wrapper img {
+  margin-bottom: calc(var(--scale) * 30px);
   width: calc(var(--scale) * 244px);
 }
 #app .banner .img-wrapper .form-wrapper {
@@ -133,6 +136,12 @@ button {
   justify-content: center;
   padding-left: calc(var(--scale) * 15px);
   margin-bottom: calc(var(--scale) * 17px);
+}
+#app .banner .img-wrapper .form-wrapper .input-item:nth-last-of-type(1) {
+  font-weight: 600;
+}
+#app .banner .img-wrapper .form-wrapper .input-item:nth-last-of-type(1):before {
+  display: none;
 }
 #app .banner .img-wrapper .form-wrapper .input-item:before {
   position: absolute;
@@ -239,6 +248,7 @@ button {
 #app .block2 .block-context .item img {
   margin-top: calc(var(--scale) * 3px);
   width: calc(var(--scale) * 20px);
+  min-width: calc(var(--scale) * 20px);
 }
 #app .block2 .block-context .item span {
   color: #14206C;
@@ -557,7 +567,7 @@ button {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: calc(var(--scale) * 34px) calc(var(--scale) * 363px) calc(var(--scale) * 34px) calc(var(--scale) * 363px);
+  padding: calc(var(--scale) * 34px) calc(var(--scale) * 461px) calc(var(--scale) * 34px) calc(var(--scale) * 461px);
   background-color: #102b5b;
 }
 #app .footer .title {
@@ -654,7 +664,7 @@ button {
   text-align: center;
   font-size: calc(var(--scale) * 16px);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: calc(var(--scale) * 32px);
   height: calc(var(--scale) * 32px);
   border-radius: calc(var(--scale) * 4px);

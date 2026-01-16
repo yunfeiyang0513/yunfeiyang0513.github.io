@@ -42,7 +42,8 @@ button {
   }
   .banner {
     display: flex;
-    padding: transSize(44)  transSize(459) transSize(24)  transSize(459);
+    align-items: flex-end;
+    padding: transSize(49)  transSize(459) transSize(49)  transSize(459);
     width: 100%;
     color: #FFF;
     font-size: transSize(42) ;
@@ -87,7 +88,8 @@ button {
         .btn {
           margin-top: 0;
           width: transSize(180);
-          line-height: 2.3;
+          height: transSize(53);
+          line-height: transSize(53);
           border-radius: transSize(4) ;
         }
         .btn1 {
@@ -107,6 +109,7 @@ button {
       align-items: flex-end;
       margin-left: transSize(20) ;
       img {
+        margin-bottom: transSize(30);
         width: transSize(244) ;
       }
       .form-wrapper {
@@ -129,6 +132,12 @@ button {
           justify-content: center;
           padding-left: transSize(15);
           margin-bottom: transSize(17);
+          &:nth-last-of-type(1) {
+            font-weight: 600;
+            &:before {
+              display: none;
+            }
+          }
           &:before {
             position: absolute;
             content: "*";
@@ -235,6 +244,7 @@ button {
         img {
           margin-top: transSize(3);
           width: transSize(20);
+          min-width: transSize(20);
         }
         span {
           color: #14206C;
@@ -573,7 +583,7 @@ button {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: transSize(34)  transSize(363) transSize(34) transSize(363);
+    padding: transSize(34)  transSize(461) transSize(34) transSize(461);
     background-color: #102b5b;
     .title {
       margin-bottom: transSize(8) ;
@@ -667,7 +677,7 @@ button {
           text-align: center;
           font-size: transSize(16) ;
           font-style: normal;
-          font-weight: 500;
+          font-weight: 600;
           line-height: transSize(32) ;
           height: transSize(32) ;
           border-radius: transSize(4) ;
