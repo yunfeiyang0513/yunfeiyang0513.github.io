@@ -24,7 +24,7 @@ button {
     color: #14206C;
     font-size: transSize(24) ;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
   }
   .center {
@@ -42,19 +42,18 @@ button {
   }
   .banner {
     display: flex;
-    justify-content: space-between;
     padding: transSize(44)  transSize(254) transSize(24)  transSize(363);
     width: 100%;
     color: #FFF;
     font-size: transSize(42) ;
-    font-weight: 700;
+    font-weight: 500;
     background-color: #152368;
     .ctx-area {
       .title {
         margin-bottom: transSize(21) ;
         color: #FFF;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: normal;
         text-transform: capitalize;
         .main-title {
@@ -73,7 +72,7 @@ button {
         color: #FCBC40;
         font-size: transSize(20) ;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         &:nth-last-of-type(2) {
           margin-bottom: transSize(42);
         }
@@ -105,10 +104,73 @@ button {
     }
     .img-wrapper {
       display: flex;
-      align-items: flex-end;
-      margin-left: transSize(20) ;
+      align-items: center;
       img {
-        width: transSize(810) ;
+        width: transSize(298) ;
+      }
+      .form-wrapper {
+        margin-left: transSize(174);
+        padding: transSize(15) transSize(30);
+        background-color: white;
+        .title {
+          color: #14206C;
+          text-align: center;
+          font-family: "Source Han Sans CN";
+          font-size: transSize(20);
+          font-style: normal;
+          font-weight: 500;
+          line-height: 2.3; /* 230% */
+        }
+        .input-item {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: transSize(15);
+          margin-bottom: transSize(17);
+          &:before {
+            position: absolute;
+            content: "*";
+            top: transSize(10);
+            left: 0;
+            font-size: transSize(12);
+            color: #B2B2B3;;
+          }
+          &:nth-last-of-type(1) {
+            margin-bottom: 0;
+          }
+          input {
+            flex: 1;
+            padding-left: transSize(8);
+            color: #999999;
+            padding-top: transSize(9);
+            padding-bottom: transSize(9);
+            font-size: transSize(14) ;
+            border: transSize(1)  solid #E0E0E2;;
+          }
+          .sub-btn {
+            padding-top: transSize(3);
+            padding-bottom: transSize(3);
+            color: #14206C;
+            text-align: center;
+            font-size: transSize(16) ;
+            line-height: 1.6;
+            font-style: normal;
+            font-weight: 500;
+            background-color: #fcbc40;
+            cursor: pointer ;
+            border: none;
+            outline: none;
+          }
+        }
+        .sub-tip {
+          color: #465052;
+          text-align: center;
+          font-size: transSize(14);
+          font-style: normal;
+          font-weight: 400;
+          line-height: 3.2; /* 328.571% */
+        }
       }
     }
   }
@@ -119,7 +181,7 @@ button {
     text-align: center;
     font-size: transSize(18) ;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 2.3;
     border-radius: transSize(4) ;
     background-color: #fcbc40;
@@ -139,7 +201,7 @@ button {
       font-size: transSize(28) ;
       line-height: 1.5;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 500;
     }
     .block-context {
       position: relative;
@@ -160,7 +222,7 @@ button {
         &-name {
           margin-bottom: transSize(14);
           text-align: left;
-          font-weight: 700;
+          font-weight: 500;
           font-size: transSize(18);
           line-height: 1.5;
           color: #14206C;
@@ -198,7 +260,7 @@ button {
       font-style: normal;
       text-align: center;
       line-height: 1.5;
-      font-weight: 700;
+      font-weight: 500;
       width: 100%;
     }
     .block-context {
@@ -224,7 +286,7 @@ button {
         }
         tbody {
           td:nth-of-type(1) {
-            font-weight: 700;
+            font-weight: 500;
             text-align: left;
             color: #14206C;
             background-color: #b7ddf2;
@@ -263,7 +325,7 @@ button {
       .title {
         margin-bottom: transSize(29);
         font-size: transSize(24);
-        font-weight: 700;
+        font-weight: 500;
         color: #14206C;
       }
       .desc  {
@@ -295,7 +357,7 @@ button {
       .title {
         margin-bottom: transSize(29);
         font-size: transSize(24);
-        font-weight: 700;
+        font-weight: 500;
         color: #14206C;
       }
       .desc  {
@@ -327,7 +389,7 @@ button {
       .title {
         margin-bottom: transSize(29);
         font-size: transSize(24);
-        font-weight: 700;
+        font-weight: 500;
         color: #14206C;
         line-height: 1.25;
       }
@@ -354,7 +416,7 @@ button {
       margin-bottom: transSize(15);
       text-align: center;
       font-size: transSize(24);
-      font-weight: 700;
+      font-weight: 500;
       color: #14206C;
     }
     .sub-title {
@@ -382,7 +444,7 @@ button {
         &-title {
           margin-bottom: transSize(6);
           font-size: transSize(18);
-          font-weight: 700;
+          font-weight: 500;
           color: #14206C;
         }
         &-sub-title {
@@ -513,7 +575,7 @@ button {
           text-align: center;
           font-size: transSize(16) ;
           font-style: normal;
-          font-weight: 700;
+          font-weight: 500;
           line-height: transSize(32) ;
           height: transSize(32) ;
           border-radius: transSize(4) ;
@@ -537,7 +599,7 @@ button {
     color: rgba(70, 80, 82, 0.50);
     font-size: transSize(12) ;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     img {
       width: transSize(123)
     }

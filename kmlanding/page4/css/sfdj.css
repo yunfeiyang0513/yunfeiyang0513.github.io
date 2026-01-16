@@ -27,7 +27,7 @@ button {
   color: #14206C;
   font-size: calc(var(--scale) * 24px);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 #app .center {
@@ -45,19 +45,18 @@ button {
 }
 #app .banner {
   display: flex;
-  justify-content: space-between;
   padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 24px) calc(var(--scale) * 363px);
   width: 100%;
   color: #FFF;
   font-size: calc(var(--scale) * 42px);
-  font-weight: 700;
+  font-weight: 500;
   background-color: #152368;
 }
 #app .banner .ctx-area .title {
   margin-bottom: calc(var(--scale) * 21px);
   color: #FFF;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
 }
@@ -76,7 +75,7 @@ button {
   color: #FCBC40;
   font-size: calc(var(--scale) * 20px);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 #app .banner .ctx-area .item:nth-last-of-type(2) {
   margin-bottom: calc(var(--scale) * 42px);
@@ -107,11 +106,74 @@ button {
 }
 #app .banner .img-wrapper {
   display: flex;
-  align-items: flex-end;
-  margin-left: calc(var(--scale) * 20px);
+  align-items: center;
 }
 #app .banner .img-wrapper img {
-  width: calc(var(--scale) * 810px);
+  width: calc(var(--scale) * 298px);
+}
+#app .banner .img-wrapper .form-wrapper {
+  margin-left: calc(var(--scale) * 174px);
+  padding: calc(var(--scale) * 15px) calc(var(--scale) * 30px);
+  background-color: white;
+}
+#app .banner .img-wrapper .form-wrapper .title {
+  color: #14206C;
+  text-align: center;
+  font-family: "Source Han Sans CN";
+  font-size: calc(var(--scale) * 20px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.3; /* 230% */
+}
+#app .banner .img-wrapper .form-wrapper .input-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(var(--scale) * 15px);
+  margin-bottom: calc(var(--scale) * 17px);
+}
+#app .banner .img-wrapper .form-wrapper .input-item:before {
+  position: absolute;
+  content: "*";
+  top: calc(var(--scale) * 10px);
+  left: 0;
+  font-size: calc(var(--scale) * 12px);
+  color: #B2B2B3;
+}
+#app .banner .img-wrapper .form-wrapper .input-item:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+#app .banner .img-wrapper .form-wrapper .input-item input {
+  flex: 1;
+  padding-left: calc(var(--scale) * 8px);
+  color: #999999;
+  padding-top: calc(var(--scale) * 9px);
+  padding-bottom: calc(var(--scale) * 9px);
+  font-size: calc(var(--scale) * 14px);
+  border: calc(var(--scale) * 1px) solid #E0E0E2;
+}
+#app .banner .img-wrapper .form-wrapper .input-item .sub-btn {
+  padding-top: calc(var(--scale) * 3px);
+  padding-bottom: calc(var(--scale) * 3px);
+  color: #14206C;
+  text-align: center;
+  font-size: calc(var(--scale) * 16px);
+  line-height: 1.6;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #fcbc40;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+#app .banner .img-wrapper .form-wrapper .sub-tip {
+  color: #465052;
+  text-align: center;
+  font-size: calc(var(--scale) * 14px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.2; /* 328.571% */
 }
 #app .btn {
   margin-top: calc(var(--scale) * 16px);
@@ -120,7 +182,7 @@ button {
   text-align: center;
   font-size: calc(var(--scale) * 18px);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 2.3;
   border-radius: calc(var(--scale) * 4px);
   background-color: #fcbc40;
@@ -141,7 +203,7 @@ button {
   font-size: calc(var(--scale) * 28px);
   line-height: 1.5;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 #app .block2 .block-context {
   position: relative;
@@ -164,7 +226,7 @@ button {
 #app .block2 .block-context .item-name {
   margin-bottom: calc(var(--scale) * 14px);
   text-align: left;
-  font-weight: 700;
+  font-weight: 500;
   font-size: calc(var(--scale) * 18px);
   line-height: 1.5;
   color: #14206C;
@@ -198,7 +260,7 @@ button {
   font-style: normal;
   text-align: center;
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 500;
   width: 100%;
 }
 #app .block3 .block-context {
@@ -225,7 +287,7 @@ button {
   text-align: left;
 }
 #app .block3 .block-context table tbody td:nth-of-type(1) {
-  font-weight: 700;
+  font-weight: 500;
   text-align: left;
   color: #14206C;
   background-color: #b7ddf2;
@@ -258,7 +320,7 @@ button {
 #app .block4 .right .title {
   margin-bottom: calc(var(--scale) * 29px);
   font-size: calc(var(--scale) * 24px);
-  font-weight: 700;
+  font-weight: 500;
   color: #14206C;
 }
 #app .block4 .right .desc {
@@ -286,7 +348,7 @@ button {
 #app .block7 .right .title {
   margin-bottom: calc(var(--scale) * 29px);
   font-size: calc(var(--scale) * 24px);
-  font-weight: 700;
+  font-weight: 500;
   color: #14206C;
 }
 #app .block7 .right .desc {
@@ -312,7 +374,7 @@ button {
 #app .block5 .left .title {
   margin-bottom: calc(var(--scale) * 29px);
   font-size: calc(var(--scale) * 24px);
-  font-weight: 700;
+  font-weight: 500;
   color: #14206C;
   line-height: 1.25;
 }
@@ -338,7 +400,7 @@ button {
   margin-bottom: calc(var(--scale) * 15px);
   text-align: center;
   font-size: calc(var(--scale) * 24px);
-  font-weight: 700;
+  font-weight: 500;
   color: #14206C;
 }
 #app .block6 .sub-title {
@@ -368,7 +430,7 @@ button {
 #app .block6 .block-context .item-title {
   margin-bottom: calc(var(--scale) * 6px);
   font-size: calc(var(--scale) * 18px);
-  font-weight: 700;
+  font-weight: 500;
   color: #14206C;
 }
 #app .block6 .block-context .item-sub-title {
@@ -498,7 +560,7 @@ button {
   text-align: center;
   font-size: calc(var(--scale) * 16px);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: calc(var(--scale) * 32px);
   height: calc(var(--scale) * 32px);
   border-radius: calc(var(--scale) * 4px);
@@ -518,7 +580,7 @@ button {
   color: rgba(70, 80, 82, 0.5);
   font-size: calc(var(--scale) * 12px);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 #app .page-footer img {
   width: calc(var(--scale) * 123px);

@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8"/>
@@ -40,6 +40,33 @@
         </div>
         <div class="img-wrapper">
             <img src="./assets/images/sfdj/banner.png" alt="">
+            <div class="form-wrapper">
+                <p class="title">填寫表單，獲取伺服驅動器型錄</p>
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"  id="form0">
+                    <div class="input-item">
+                        <input type="text" name="last_name" placeholder="稱呼">
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" name="company" placeholder="公司名稱">
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" name="phone" placeholder="電話">
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" class="email" name="email" placeholder="E-mail">
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-item last-item">
+                        <input type="submit" value="提交" class="sub-btn">
+                    </div>
+                    <p class="sub-tip">提交表單，獲取產品樣本和資料</p>
+                    <input type="hidden" name="oid" value="00D80000000TfnV">
+                    <input type="hidden" name="retURL" value="https://www.kollmorgen.cn/zh-cn/website-resources/salesforce-thank-you-pages/%E6%84%9F%E8%B0%A2%E6%82%A8%E8%81%94%E7%B3%BB%E7%A7%91%E5%B0%94%E6%91%A9%E6%A0%B9">
+                </form>
+            </div>
         </div>
     </div>
     <div class="block2">
@@ -193,7 +220,7 @@
         </div>
     </div>
     <div class="block6">
-            <p class="title">應對極端挑戰：Kollmorgen 特種馬達解決方案</p>
+        <p class="title">應對極端挑戰：Kollmorgen 特種馬達解決方案</p>
         <p class="sub-title">
             無論您的應用環境多麼苛刻，我們都有經過驗證的客製化解決方案
         </p>
