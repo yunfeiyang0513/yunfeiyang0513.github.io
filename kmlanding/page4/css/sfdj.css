@@ -45,7 +45,7 @@ button {
 }
 #app .banner {
   display: flex;
-  padding: calc(var(--scale) * 44px) calc(var(--scale) * 254px) calc(var(--scale) * 24px) calc(var(--scale) * 363px);
+  padding: calc(var(--scale) * 44px) calc(var(--scale) * 363px) calc(var(--scale) * 24px) calc(var(--scale) * 363px);
   width: 100%;
   color: #FFF;
   font-size: calc(var(--scale) * 42px);
@@ -106,14 +106,15 @@ button {
   border: calc(var(--scale) * 1px) solid #FCBC40;
 }
 #app .banner .img-wrapper {
+  flex: 1;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 #app .banner .img-wrapper img {
   width: calc(var(--scale) * 298px);
 }
 #app .banner .img-wrapper .form-wrapper {
-  margin-left: calc(var(--scale) * 174px);
   padding: calc(var(--scale) * 15px) calc(var(--scale) * 30px);
   background-color: white;
 }

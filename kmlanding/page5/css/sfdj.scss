@@ -43,6 +43,7 @@ button {
   .banner {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     padding: transSize(49)  transSize(459) transSize(49)  transSize(459);
     width: 100%;
     color: #FFF;
@@ -107,7 +108,6 @@ button {
     .img-wrapper {
       display: flex;
       align-items: flex-end;
-      margin-left: transSize(20) ;
       img {
         margin-bottom: transSize(30);
         width: transSize(244) ;

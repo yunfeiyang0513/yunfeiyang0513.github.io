@@ -46,6 +46,7 @@ button {
 #app .banner {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   padding: calc(var(--scale) * 49px) calc(var(--scale) * 459px) calc(var(--scale) * 49px) calc(var(--scale) * 459px);
   width: 100%;
   color: #FFF;
@@ -109,7 +110,6 @@ button {
 #app .banner .img-wrapper {
   display: flex;
   align-items: flex-end;
-  margin-left: calc(var(--scale) * 20px);
 }
 #app .banner .img-wrapper img {
   margin-bottom: calc(var(--scale) * 30px);

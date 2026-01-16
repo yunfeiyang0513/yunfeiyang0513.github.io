@@ -42,7 +42,7 @@ button {
   }
   .banner {
     display: flex;
-    padding: transSize(44)  transSize(254) transSize(24)  transSize(363);
+    padding: transSize(44)  transSize(363) transSize(24)  transSize(363);
     width: 100%;
     color: #FFF;
     font-size: transSize(42) ;
@@ -104,13 +104,14 @@ button {
       }
     }
     .img-wrapper {
+      flex: 1;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       img {
         width: transSize(298) ;
       }
       .form-wrapper {
-        margin-left: transSize(174);
         padding: transSize(15) transSize(30);
         background-color: white;
         .title {
