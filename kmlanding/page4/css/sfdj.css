@@ -169,7 +169,7 @@ button {
   font-size: calc(var(--scale) * 16px);
   line-height: 1.6;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #fcbc40;
   cursor: pointer;
   border: none;
