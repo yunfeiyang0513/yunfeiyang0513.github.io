@@ -5,6 +5,7 @@ ul {
 
 #app {
   font-size: calc(var(--scale) * 14px);
+  line-height: initial;
 }
 #app .sub-title {
   color: #14206C;

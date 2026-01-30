@@ -1,16 +1,16 @@
 @font-face {
   font-family: "kmfont";
-  src: url("../assets/font/SourceHanSansCN-Medium.otf");
+  src: url("../../page6/assets/font/SourceHanSansCN-Medium.otf");
   font-weight: 500;
 }
 @font-face {
   font-family: "kmfont";
-  src: url("../assets/font/SourceHanSansCN-Regular.otf");
+  src: url("../../page6/assets/font/SourceHanSansCN-Regular.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "kmfont";
-  src: url("../assets/font/SourceHanSansCN-Bold.otf");
+  src: url("../../page6/assets/font/SourceHanSansCN-Bold.otf");
   font-weight: 700;
 }
 * {

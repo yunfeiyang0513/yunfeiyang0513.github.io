@@ -1,0 +1,136 @@
+.dialog-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dialog-modal .dialog-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  width: calc(var(--scale) * 1073px);
+  border-radius: calc(var(--scale) * 2px);
+  transform: translate(-50%, -50%);
+}
+.dialog-modal .dialog-wrapper .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc(var(--scale) * 37px) calc(var(--scale) * 72px) calc(var(--scale) * 27px) calc(var(--scale) * 77px);
+  width: 68.5%;
+  border-radius: calc(var(--scale) * 4px) 0 0 calc(var(--scale) * 2px);
+  background-color: #fff;
+}
+.dialog-modal .dialog-wrapper .left .title {
+  color: #14206C;
+  font-size: calc(var(--scale) * 20px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(var(--scale) * 30px);
+}
+.dialog-modal .dialog-wrapper .left .title-desc {
+  color: #465052;
+  font-size: calc(var(--scale) * 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.87;
+}
+.dialog-modal .dialog-wrapper .left .tip {
+  color: #999;
+  font-size: calc(var(--scale) * 14px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.28;
+}
+.dialog-modal .dialog-wrapper .left .input-item {
+  margin-top: calc(var(--scale) * 8px);
+}
+.dialog-modal .dialog-wrapper .left .input-item:nth-of-type(1) {
+  margin-top: 0;
+}
+.dialog-modal .dialog-wrapper .left .input-item label {
+  display: block;
+  color: #999;
+  font-size: calc(var(--scale) * 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+.dialog-modal .dialog-wrapper .left .input-item input {
+  width: 100%;
+  height: calc(var(--scale) * 28px);
+  font-size: calc(var(--scale) * 16px);
+  border: calc(var(--scale) * 1px) solid #E0E0E2;
+}
+.dialog-modal .dialog-wrapper .left .input-item .sub-btn {
+  color: white;
+  text-align: center;
+  font-size: calc(var(--scale) * 20px);
+  line-height: 1;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(var(--scale) * 52px);
+  background-color: #e27b36;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.dialog-modal .dialog-wrapper .left .last-item {
+  margin-top: calc(var(--scale) * 20px);
+}
+.dialog-modal .dialog-wrapper .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc(var(--scale) * 51px) calc(var(--scale) * 34px) calc(var(--scale) * 84px) calc(var(--scale) * 52px);
+  flex: 1;
+  border-radius: 0rem calc(var(--scale) * 2px) calc(var(--scale) * 2px) 0rem;
+  background: #1B437E;
+}
+.dialog-modal .dialog-wrapper .right .title {
+  margin-bottom: calc(var(--scale) * 8px);
+  color: #F5F5F5;
+  font-size: calc(var(--scale) * 20px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+.dialog-modal .dialog-wrapper .right .desc {
+  margin-bottom: calc(var(--scale) * 52px);
+  color: #F5F5F5;
+  font-size: calc(var(--scale) * 14px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4; /* 142.857% */
+}
+.dialog-modal .dialog-wrapper .right ul {
+  margin-bottom: calc(var(--scale) * 51px);
+  color: #F5F5F5;
+  font-size: calc(var(--scale) * 14px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9;
+}
+.dialog-modal .dialog-wrapper .right img {
+  width: calc(var(--scale) * 260px);
+}
+.dialog-modal .dialog-wrapper .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(var(--scale) * 60px);
+  height: calc(var(--scale) * 60px);
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transform: translate(50%, -50%);
+}
+.dialog-modal .dialog-wrapper .close img {
+  width: calc(var(--scale) * 14px);
+}
